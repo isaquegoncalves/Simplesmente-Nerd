@@ -1,11 +1,189 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de conteúdo</title>
-</head>
-<body>
-    <h1>Aqui é página de conteúdo</h1>
-</body>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Simplesmente Nerd</title>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <header>
+            <div class="header-top">
+                <h1>Simplesmente Nerd</h1>
+                <div class="menu-icon" onclick="toggleMenu()">☰</div>
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Filmes</a>
+                    <a href="#">Games</a>
+                    <a href="#">Contato</a>
+                    <a href="#">Quem Somos</a>
+                </nav>
+            </div>
+
+            <!--Menu Mobile-->
+            <div class="mobile-nav" id="mobileNav">
+                <button class="close-btn" onclick="toggleMenu()">✖</button>
+                <a href="#">Home</a>
+                <a href="#">Filmes</a>
+                <a href="#">Games</a>
+                <a href="#">Contato</a>
+                <a href="#">Quem Somos</a>
+            </div>
+        </header>
+
+        <main>
+            <div class="conteudo-principal">
+                <h2 style="text-align: center;">Cinema em foco</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quae reprehenderit omnis pariatur modi et molestias! Qui tenetur a facilis et nihil nobis aliquid dolores, pariatur incidunt quisquam temporibus fugiat!</p>
+
+                <!-----BOX DESTAQUE---->
+                <section class="fundo-destaque-filmes-jogos">
+                    <h3>Filme do momento</h3>
+
+                    <!--PARTE SUPERIOR-->
+                    <div class="superior">
+                        <div class="destaque-filmes-jogos-poster">
+                            <img src="superman-legacy.jpg" alt="Destaque Superman">
+                        </div>
+                        
+                        <div class="fundo-destaque-filmes-jogos-texto">
+                            <h4>Diretor: </h4> <p>James Gunn</p>
+                            <br><br>
+
+                            <h4>Elenco: </h4> <p>David Corenswest</p>
+                            <br>
+                            <p style="margin-left: 44px;">Rachel Brosnahan</p>
+                            <br>
+                            <p style="margin-left: 44px;">Nathan Fillion</p>
+                            <br><br>
+
+                            <h4>Gênero: </h4> <p>Ficção Cíentifica</p>
+                            <br>
+                            <p style="margin-left: 47px;">Ação</p>
+                        </div>
+                    </div>
+
+                    <!--PARTE INFERIOR-->
+                    <div class="inferior">
+                        <h4>Superman 2025 - Visão Geral</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione sint vero, aut pariatur voluptas accusantium, doloribus perspiciatis, facere similique quidem tempore atque neque itaque nihil provident eligendi.
+                        </p>
+                    </div>
+                    
+                </section>
+
+                <h3>Assuntos do momento</h3>
+
+                <!----ASSUNTOS DO MOMENTO---->
+                <section class="momentos">
+                    
+                    <!--LANÇAMENTO GTA 6-->
+                    <a class="link-articles" href="pag-conteudo.html" target="_self"> 
+                        <article class="post-article">
+                            <div class="article-img">
+                                <picture>
+                                    <source media="(max-width: 768px)" srcset="banner-gta6-1x1-pequena.png">
+                                    <img src="banner-gta6-16x9.png" alt="Poster gta 6">
+                                </picture>
+                            </div>
+                            
+                            <div class="article-texto">
+                                <h4>Lançamento de GTA 6</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+
+                    <!--THUNDERBOLTS-->
+                    <a class="link-articles" href="pag-conteudo.html" target="_self"> 
+                        <article class="post-article">
+                            <div class="article-img">
+                                <picture>
+                                    <source media="(max-width: 768px)" srcset="thunderbolts-1x1-pequeno.jpeg">
+                                    <img src="thunderbolts-16x9.jpg" alt="Poster Thunderbolts">
+                                </picture>
+                            </div>
+                            
+                            <div class="article-texto">
+                                <h4>Análise de Thunderbolts</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+
+                    <!--MAFIA-->
+                    <a class="link-articles" href="pag-conteudo.html" target="_self"> 
+                        <article class="post-article">
+                            <div class="article-img">
+                                <picture>
+                                    <source media="(max-width: 768px)" srcset="banner-mafia-1x1-pequeno.jpg">
+                                    <img src="banner-mafia-16x9.jpg" alt="Poster gta 6">
+                                </picture>
+                            </div>
+                            
+                            <div class="article-texto">
+                                <h4>Detalhes de novo Mafia</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+
+                    <!--DEATH STRANDING-->
+                    <a class="link-articles" href="pag-conteudo.html" target="_self"> 
+                        <article class="post-article">
+                            <div class="article-img">
+                                <picture>
+                                    <source media="(max-width: 768px)" srcset="banner-deathstranding-1x1-pequeno.jpg">
+                                    <img src="banner-deathstranding-16x9.jpg" alt="Poster gta 6">
+                                </picture>
+                            </div>
+                            
+                            <div class="article-texto">
+                                <h4>Novidades de Death Strange 2</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+                    
+                </section>
+            </div>
+
+            <!--SEÇÃO VEJA MAIS-->
+            <aside class="lateral">
+                <h3>Mais recentes</h3>
+                <article>
+                    <img src="https://via.placeholder.com/300x150?text=Avengers+Doomsday" alt="Avengers">
+                    <p>Avengers: Doomsday</p>
+                </article>
+                <article>
+                    <img src="https://via.placeholder.com/300x150?text=Thunderbolts" alt="Thunderbolts">
+                    <p>Thunderbolts</p>
+                </article>
+                <article>
+                    <img src="https://via.placeholder.com/300x150?text=Batman+II" alt="Batman">
+                    <p>The Batman II</p>
+                </article>
+            </aside>
+        </main>
+
+        <footer>
+            <p>Desenvolvido por Isaque S. C. Brandão • Escritor: Saulo Henrique • Apoio: Marcelo Isaias</p>
+        </footer>
+
+        <script>
+            function toggleMenu() {
+                const menu = document.getElementById('mobileNav');
+                menu.classList.toggle('active');
+            }
+        </script>
+    </body>
 </html>
