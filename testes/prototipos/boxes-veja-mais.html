@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boxes veja mais</title>
+    <style>
+        .filme-box {
+            display: flex;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            align-items: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+        }
+
+        .filme-box:hover {
+            transform: translateY(-3px);
+        }
+
+        .filme-box img {
+            width: 100px;
+            height: auto;
+            border-radius: 8px;
+            margin-right: 15px;
+        }
+
+        .filme-info h4 {
+            margin: 0 0 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+
+        .filme-info p {
+            margin: 0;
+            font-size: 0.9rem;
+            color: #444;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="filme-box">
+    <img src="avengers-doomsday.jpg" alt="Avengers: Doomsday">
+    <div class="filme-info">
+        <h4>Avengers: Doomsday</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui.</p>
+    </div>
+    </div>
+
+    <div class="filme-box">
+        <img src="thunderbolts.jpg" alt="Thunderbolts">
+        <div class="filme-info">
+            <h4>Thunderbolts</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui.</p>
+        </div>
+    </div>
+
+    <div class="filme-box">
+        <img src="the-batman-ii.jpg" alt="The Batman II">
+        <div class="filme-info">
+            <h4>The Batman II</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui.</p>
+        </div>
+    </div>
+
+</body>
+</html>

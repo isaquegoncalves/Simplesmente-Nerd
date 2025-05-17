@@ -5,15 +5,25 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Simplesmente Nerd</title>
         <link rel="stylesheet" href="estilo.css">
+        <style>
+            .conteudo-principal > h3 {
+                margin-left: 50px;
+            }
+
+            .conteudo-principal > p {
+                margin-left: 50px;
+            }
+        </style>
     </head>
     <body>
         <header>
+            <!--Menu Desktop-->
             <div class="header-top">
                 <h1>Simplesmente Nerd</h1>
                 <div class="menu-icon" onclick="toggleMenu()">☰</div>
                 <nav>
-                    <a href="#">Home</a>
-                    <a href="#">Filmes</a>
+                    <a href="index.html">Home</a>
+                    <a href="pag-conteudo.html">Filmes</a>
                     <a href="#">Games</a>
                     <a href="#">Contato</a>
                     <a href="#">Quem Somos</a>
@@ -24,7 +34,7 @@
             <div class="mobile-nav" id="mobileNav">
                 <button class="close-btn" onclick="toggleMenu()">✖</button>
                 <a href="#">Home</a>
-                <a href="#">Filmes</a>
+                <a href="pag-conteudo.html">Filmes</a>
                 <a href="#">Games</a>
                 <a href="#">Contato</a>
                 <a href="#">Quem Somos</a>
@@ -52,14 +62,14 @@
 
                             <h4>Elenco: </h4> <p>David Corenswest</p>
                             <br>
-                            <p style="margin-left: 44px;">Rachel Brosnahan</p>
+                            <p style="margin-left: 46px;">Rachel Brosnahan</p>
                             <br>
-                            <p style="margin-left: 44px;">Nathan Fillion</p>
+                            <p style="margin-left: 46px;">Nathan Fillion</p>
                             <br><br>
 
                             <h4>Gênero: </h4> <p>Ficção Cíentifica</p>
                             <br>
-                            <p style="margin-left: 47px;">Ação</p>
+                            <p style="margin-left: 49px;">Ação</p>
                         </div>
                     </div>
 
@@ -70,16 +80,23 @@
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione sint vero, aut pariatur voluptas accusantium, doloribus perspiciatis, facere similique quidem tempore atque neque itaque nihil provident eligendi.
                         </p>
                     </div>
-                    
+
+                    <a href="super.html" class="botao-saiba-mais">
+                        Saiba Mais
+                        <span class="icone-seta">➔</span>
+                    </a>
                 </section>
 
-                <h3>Assuntos do momento</h3>
+                <br><br>
+
+                <h3>Filmes populares</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint magnam assumenda accusamus. Eaque blanditiis, hic amet numquam suscipit, dignissimos voluptate illum omnis incidunt, nobis eveniet corporis beatae magnam ex? Aperiam.</p>
 
                 <!----ASSUNTOS DO MOMENTO---->
                 <section class="momentos">
                     
                     <!--LANÇAMENTO GTA 6-->
-                    <a class="link-articles" href="pag-conteudo.html" target="_self"> 
+                    <a class="link-articles" href="gta6.html" target="_self"> 
                         <article class="post-article">
                             <div class="article-img">
                                 <picture>
@@ -98,7 +115,7 @@
                     </a>
 
                     <!--THUNDERBOLTS-->
-                    <a class="link-articles" href="pag-conteudo.html" target="_self"> 
+                    <a class="link-articles" href="thunderbolts.html" target="_self"> 
                         <article class="post-article">
                             <div class="article-img">
                                 <picture>
@@ -117,7 +134,7 @@
                     </a>
 
                     <!--MAFIA-->
-                    <a class="link-articles" href="pag-conteudo.html" target="_self"> 
+                    <a class="link-articles" href="#" target="_self"> 
                         <article class="post-article">
                             <div class="article-img">
                                 <picture>
@@ -136,7 +153,7 @@
                     </a>
 
                     <!--DEATH STRANDING-->
-                    <a class="link-articles" href="pag-conteudo.html" target="_self"> 
+                    <a class="link-articles" href="#" target="_self"> 
                         <article class="post-article">
                             <div class="article-img">
                                 <picture>

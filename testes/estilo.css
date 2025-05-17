@@ -124,6 +124,7 @@ main {
 
 .conteudo-principal {
     flex: 3;
+    max-width: 1200px;
 }
 
 .destaque,
@@ -201,7 +202,7 @@ h2 {
     font-family: 'oswald', sans-serif;
     font-weight: 400;
     font-size: 35px;
-    text-indent: 10%;
+    text-align: center;
     margin-bottom: 10px;
 }
 
@@ -212,7 +213,7 @@ h3 {
     font-weight: 400;
     font-size: 27px;
     margin-bottom: 10px;
-    margin-left: 40px;
+    margin-left: 15px;
     width: 300px;
 
     border-bottom-style: solid;
@@ -220,16 +221,6 @@ h3 {
     border-bottom-color: var(--azul-titulo);
 }
 /*===========================================*/
-
-
-.conteudo-principal > p {
-    font-family: 'nunito', sans-serif;
-    color: var(--menu_superior);
-    padding-left: 15px;
-    padding-right: 15px;
-    text-indent: 25px;
-    margin-bottom: 15px;
-}
 
 
 /*----Estrutura dos posts(quadrados clicáveis)-----*/
@@ -305,13 +296,16 @@ h3 {
     .fundo-destaque-filmes-jogos {
         background-color: var(--menu_superior);
         padding: 20px;
+        max-width: 600px;
+        margin: auto;
+        box-shadow: 12px 12px 0px rgb(29, 29, 29);
     }
 
     .fundo-destaque-filmes-jogos h3 {
         color: aliceblue;
         margin-left: 0px;
-        font-size: 20px;
-        width: 200px;
+        font-size: 27px;
+        width: 225px;
     }
 
     .superior {
@@ -325,18 +319,19 @@ h3 {
         font-family: 'oswald', sans-serif;
         color: var(--azul-texto);
         font-weight: 400;
-        font-size: 18px;
+        font-size: 25px;
+        margin-bottom: 10px;
     }
 
     .inferior p {
         font-family: 'nunito', sans-serif;
         color: var(--cinza-texto);
-        font-size: 13px;
+        font-size: 18px;
         text-indent: 25px;
     }
 
     .destaque-filmes-jogos-poster {
-        width: 40%;
+        width: 270px;
         position: relative;
         font-family: 'oswald', sans-serif;
     }
@@ -352,15 +347,95 @@ h3 {
         display: inline;
         font-family: 'oswald', sans-serif;
         font-weight: 400;
+        font-size: 19px;
     }
 
     .fundo-destaque-filmes-jogos-texto > p {
         color: var(--cinza-texto);
         display: inline;
         font-family: 'oswald', sans-serif;
+        font-size: 19px;
     }
+
+    .botao-saiba-mais { /*Botão saiba mais*/
+        display: block;
+        margin: auto;
+        margin-top: 12px;
+        width: 150px;
+        background-color: #76e3ff;
+        color: #111;
+        font-weight: 400;
+        font-size: 21px;
+        font-family: 'oswald', sans-serif;
+        padding: 7px 16px;
+        text-decoration: none;
+        border: none;
+        position: relative;
+        transition: transform 0.2s ease;
+        box-shadow: 4px 4px 0 #159fc4;
+    }
+
+    .botao-saiba-mais .icone-seta {
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    .botao-saiba-mais:hover {
+        transform: translateY(-2px);
+        box-shadow: 6px 6px 0 #159fc4;
+    }
+
     
 /*===========================================*/
+
+
+/*------------SEÇÃO DAS PÁGINAS DE CONTEUDO------------*/
+.poster-conteudo{
+    max-width: 750px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.poster-conteudo img {
+    width: 100%;
+    border-radius: 7px;
+}
+
+.conteudo-principal > h3{
+    margin-left: 150px;
+}
+
+.conteudo-principal > p {
+    font-family: 'nunito', sans-serif;
+    font-size: 19px;
+    color: var(--menu_superior);
+    padding-left: 15px;
+    padding-right: 15px;
+    text-indent: 25px;
+    margin: auto;
+    margin-bottom: 15px;
+    max-width: 900px;
+}
+
+.video-container { /*iframe responsivo*/
+    position: relative;
+    margin: auto;
+    padding-bottom: 39%; /* 16:9 */
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: #60259f5d;
+    max-width: 830px;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+/*=====================================================*/
 
 
 /*--------------------MOBILE---------------------*/
@@ -416,6 +491,60 @@ h3 {
     section.destaque {
         width: 100%;
     }
+
+    /*--------Box destaque (Filmes & Jogos)----------*/
+    .fundo-destaque-filmes-jogos h3 {
+        color: aliceblue;
+        margin-left: 0px;
+        font-size: 26px;
+        width: 200px;
+    }
+
+    .fundo-destaque-filmes-jogos-texto > h4 {
+        color: var(--azul-texto);
+        display: inline;
+        font-family: 'oswald', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+    }
+
+    .fundo-destaque-filmes-jogos-texto > p {
+        color: var(--cinza-texto);
+        display: inline;
+        font-family: 'oswald', sans-serif;
+        font-size: 18px;
+    }
+
+    .inferior h4 {
+        font-family: 'oswald', sans-serif;
+        color: var(--azul-texto);
+        font-weight: 400;
+        font-size: 25px;
+    }
+
+    .inferior p {
+        font-family: 'nunito', sans-serif;
+        color: var(--cinza-texto);
+        font-size: 17px;
+        text-indent: 25px;
+    }
+    
+    /*=====================================================*/
+
+    .conteudo-principal > h3{
+        margin-left: 15px;
+    }
+
+    .video-container { /*iframe responsivo*/
+        position: relative;
+        margin: auto;
+        padding-bottom: 57%; /* 16:9 */
+        overflow: hidden;
+        border-radius: 0px;
+        background-color: #60259f5d;
+        max-width: 830px;
+    }
+
 
     .post-article {
         display: flex;
