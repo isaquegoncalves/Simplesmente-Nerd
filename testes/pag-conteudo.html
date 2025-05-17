@@ -6,12 +6,14 @@
         <title>Simplesmente Nerd</title>
         <link rel="stylesheet" href="estilo.css">
         <style>
-            .conteudo-principal > h3 {
+            @media (min-width: 768px) {
+                .conteudo-principal > h3 {
                 margin-left: 50px;
-            }
+                }
 
-            .conteudo-principal > p {
+                .conteudo-principal > p {
                 margin-left: 50px;
+                }
             }
         </style>
     </head>
@@ -33,7 +35,7 @@
             <!--Menu Mobile-->
             <div class="mobile-nav" id="mobileNav">
                 <button class="close-btn" onclick="toggleMenu()">✖</button>
-                <a href="#">Home</a>
+                <a href="index.html">Home</a>
                 <a href="pag-conteudo.html">Filmes</a>
                 <a href="#">Games</a>
                 <a href="#">Contato</a>

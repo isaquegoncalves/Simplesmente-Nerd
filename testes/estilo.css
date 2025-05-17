@@ -331,7 +331,7 @@ h3 {
     }
 
     .destaque-filmes-jogos-poster {
-        width: 270px;
+        width: 150px;
         position: relative;
         font-family: 'oswald', sans-serif;
     }
@@ -454,6 +454,7 @@ h3 {
 
     .menu-icon {
         display: block;
+        z-index: 3;
     }
 
     .momentos {
