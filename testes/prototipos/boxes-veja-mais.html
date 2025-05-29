@@ -5,66 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boxes veja mais</title>
     <style>
-        .filme-box {
+        .card-container {
             display: flex;
-            background-color: #f9f9f9;
-            border-radius: 10px;
-            padding: 15px;
-            margin-bottom: 20px;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+        }
+
+        .card {
+            background-color: #f7f7f7;
+            border-radius: 12px;
+            display: flex;
             align-items: center;
-            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-            transition: transform 0.2s ease;
+            padding: 15px;
         }
 
-        .filme-box:hover {
-            transform: translateY(-3px);
-        }
-
-        .filme-box img {
-            width: 100px;
-            height: auto;
+        .card img {
+            width: 90px;
+            height: 90px;
             border-radius: 8px;
+            object-fit: cover;
             margin-right: 15px;
         }
 
-        .filme-info h4 {
-            margin: 0 0 8px;
+        .card-text h4 {
+            margin: 0;
             font-size: 1.1rem;
-            font-weight: bold;
+            color: #222;
         }
 
-        .filme-info p {
-            margin: 0;
+        .card-text p {
+            margin: 6px 0 0 0;
             font-size: 0.9rem;
-            color: #444;
-            line-height: 1.4;
+            color: #555;
+        }
+
+        /* Responsivo sem alterar o layout */
+        @media (max-width: 480px) {
+        .card-container {
+            padding: 10px;
+        }
+
+        .card {
+            padding: 10px;
+        }
+
+        .card img {
+            width: 75px;
+            height: 75px;
+        }
+
+        .card-text h4 {
+            font-size: 1rem;
+        }
+
+        .card-text p {
+            font-size: 0.85rem;
+        }
         }
     </style>
 </head>
 <body>
-    <div class="filme-box">
-    <img src="avengers-doomsday.jpg" alt="Avengers: Doomsday">
-    <div class="filme-info">
-        <h4>Avengers: Doomsday</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui.</p>
-    </div>
-    </div>
+    <div class="card-container">
+        <div class="card">
+            <img src="avengers.png" alt="Avengers: Doomsday">
+            <div class="card-text">
+            <h4>Avengers: Doomsday</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
+        </div>
 
-    <div class="filme-box">
-        <img src="thunderbolts.jpg" alt="Thunderbolts">
-        <div class="filme-info">
+        <div class="card">
+            <img src="thunderbolts.png" alt="Thunderbolts">
+            <div class="card-text">
             <h4>Thunderbolts</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
         </div>
-    </div>
 
-    <div class="filme-box">
-        <img src="the-batman-ii.jpg" alt="The Batman II">
-        <div class="filme-info">
+        <div class="card">
+            <img src="batman2.png" alt="The Batman II">
+            <div class="card-text">
             <h4>The Batman II</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus, nulla ut commodo sagittis, sapien dui mattis dui.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+            </div>
         </div>
     </div>
-
 </body>
 </html>
