@@ -391,6 +391,7 @@ h3 {
 /*===========================================*/
 
 
+
 /*------------SEÇÃO DAS PÁGINAS DE CONTEUDO------------*/
     .poster-conteudo{
         max-width: 750px;
@@ -403,9 +404,12 @@ h3 {
         border-radius: 7px;
     }
 
-    .conteudo-principal > h3{
-        margin-left: 150px;
+    .conteudo-principal > h3 {
+        margin-left: clamp(17px, calc((100vw - 769px) / 5), 152px);
+        margin-right: auto;
     }
+
+
 
     .conteudo-principal > p {
         font-family: 'nunito', sans-serif;
@@ -438,6 +442,7 @@ h3 {
         border: 0;
     }
 /*=====================================================*/
+
 
 
 /*------------SEÇÃO DE BOXES VEJA MAIS------------*/
@@ -506,6 +511,55 @@ h3 {
         }
     }
 /*=====================================================*/
+
+
+
+/*------------SEÇÃO DE BOXES VOCÊ SABIA?------------*/
+    .voce-sabia {
+        max-width: 350px;
+        max-height: 1080px;
+        border-left: 2px solid #333;
+        font-family: "Segoe UI", sans-serif;
+        margin: 20px;
+        position: relative;
+    }
+
+    .titulo-box {
+        background-color: #333;
+        border: none;
+        color: #fff;
+        padding: 0.4rem 1rem;
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'oswald';
+        margin: 0;
+        max-width: 120px;
+        min-width: 100px;
+    }
+
+    .curiosidade {
+        background-color: #f9f9f9;
+        padding: 1rem;
+        margin-bottom: 30px;
+        border-radius: 4px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+
+    .curiosidade h4 {
+        font-size: 20px;
+        font-weight: 400;
+        font-family: 'oswald';
+        margin: 0px;
+    }
+
+    .curiosidade p {
+        font-size: 0.95rem;
+        font-family: 'nunito';
+        line-height: 1.5;
+        margin: 0;
+    }
+/*=====================================================*/
+
 
 
 /*--------------------MOBILE---------------------*/
