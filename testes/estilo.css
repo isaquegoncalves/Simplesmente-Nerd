@@ -409,8 +409,6 @@ h3 {
         margin-right: auto;
     }
 
-
-
     .conteudo-principal > p {
         font-family: 'nunito', sans-serif;
         font-size: 19px;
@@ -474,7 +472,8 @@ h3 {
 
     .card-text h4 {
         margin: 0;
-        font-size: 20px;
+        font-size: 26px;
+        text-align: center;
         font-family: 'oswald', 'sans-serif';
         font-weight: 400;
         color: #222;
@@ -482,33 +481,10 @@ h3 {
 
     .card-text p {
         margin: 6px 0 0 0;
-        font-size: 0.9rem;
+        font-size: 17px;
+        font-family: 'nunito';
+        text-indent: 25px;
         color: #555;
-    }
-
-    /* Responsivo sem alterar o layout */
-    @media (max-width: 480px) {
-        .card-container {
-            padding: 10px;
-            margin-left: 2%;
-        }
-
-        .card {
-            padding: 10px;
-        }
-
-        .card img {
-            width: 75px;
-            height: 75px;
-        }
-
-        .card-text h4 {
-            font-size: 1rem;
-        }
-
-        .card-text p {
-            font-size: 0.85rem;
-        }
     }
 /*=====================================================*/
 
@@ -520,7 +496,7 @@ h3 {
         max-height: 1080px;
         border-left: 2px solid #333;
         font-family: "Segoe UI", sans-serif;
-        margin: 20px;
+        margin-left: 12%;
         position: relative;
     }
 
@@ -549,12 +525,13 @@ h3 {
         font-size: 20px;
         font-weight: 400;
         font-family: 'oswald';
-        margin: 0px;
+        margin-bottom: 8px;
     }
 
     .curiosidade p {
         font-size: 0.95rem;
         font-family: 'nunito';
+        text-indent: 25px;
         line-height: 1.5;
         margin: 0;
     }
@@ -563,7 +540,41 @@ h3 {
 
 
 /*--------------------MOBILE---------------------*/
+/* Responsivo sem alterar o layout */
+    @media (max-width: 480px) {
+        
+
+        .card {
+            padding: 10px;
+        }
+
+        .card img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .card-text h4 {
+            font-size: 19px;
+        }
+
+        .card-text p {
+            font-size: 0.85rem;
+        }
+    }
+
 @media (max-width: 768px) {
+    .card-container {
+            padding: 10px;
+            margin-left: 2%;
+    }
+
+    .voce-sabia {
+        margin-left: 20px;
+    }
+
+
+
+
     body {
         min-width: 380px;
     }
