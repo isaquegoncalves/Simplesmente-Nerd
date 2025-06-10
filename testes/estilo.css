@@ -539,6 +539,114 @@ h3 {
 
 
 
+/*----------------------RODAPÉ-----------------------*/
+    .custom-footer {
+        background-color: #1c1c1c;
+        color: #fff;
+        font-family: 'Arial', sans-serif;
+        padding: 20px;
+        min-width: 380px;
+    }
+
+    .footer-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 2rem;
+        margin: 0 auto;
+        align-items: center;
+    }
+
+    .footer-section {
+        background-color: #1c1c1c;
+        flex: 1;
+        margin: auto;
+        min-width: 250px;
+    }
+
+    .footer-section h3 {
+        font-size: 30px;
+        font-family: 'bebas neue', 'sans-serif';
+        color: var(--cinza_nav);
+        text-transform: uppercase;
+        margin: auto;
+        margin-bottom: 0.8rem;
+        text-align: center;
+        border: none;
+    }
+
+    .footer-section a {
+        color: #fff;
+        text-decoration: underline;
+    }
+
+    .footer-section p {
+        font-family: 'nunito';
+        font-size: 17px;
+        line-height: 1.5;
+        text-align: center;
+    }
+
+    div .footer-nomes {
+        font-family: 'oswald', 'sans-serif';
+    }
+
+    .creditos-info {
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .creditos-info .label {
+        font-family: 'bebas neue';
+        color: var(--cinza_nav);
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+
+    .divisor-vertical {
+        width: 1px;
+        height: 40px;
+        background-color: #555;
+    }
+
+    .divisor-vertical-grande {
+        width: 1px;
+        height: 120px;
+        background-color: #555;
+    }
+    
+    .centro {
+        min-width: 380px;
+    }
+
+    @media (max-width: 768px) {
+    .footer-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .creditos-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divisor-vertical {
+        display: none;
+    }
+
+    .divisor-vertical-grande {
+        height: 1px;
+        width: 300px;
+        margin: auto;
+    }
+    }
+/*=====================================================*/
+
+
+
 /*--------------------MOBILE---------------------*/
 /* Responsivo sem alterar o layout */
     @media (max-width: 480px) {
