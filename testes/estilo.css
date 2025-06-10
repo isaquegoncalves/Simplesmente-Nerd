@@ -619,7 +619,7 @@ h3 {
     }
     
     .centro {
-        min-width: 380px;
+        min-width: 360px;
     }
 
     @media (max-width: 768px) {
