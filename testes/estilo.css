@@ -15,6 +15,21 @@
     padding: 0;
 }
 
+#logo-sn {
+    width: 18%;
+}
+
+.titulo-e-logo {
+    background-color: rgba(255, 127, 80, 0);
+    width: 40%;
+    min-width: 200px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
 :root {
     --menu_superior: #2b2b2b; 
     --cinza_nav: #e0e0e0;
@@ -32,7 +47,7 @@ body {
 header {
     background-color: var(--menu_superior);
     color: white;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -187,9 +202,9 @@ aside.lateral article {
     margin-bottom: 15px;
 }
 
-aside.lateral img {
+.post-article-ultimas img {
     width: 100%;
-    border-radius: 4px;
+    border-radius: 3px;
 }
 
 footer {
@@ -235,6 +250,26 @@ h3 {
         border-radius: 5px;
         padding: 20px;
         max-width: 500px;
+    }
+
+    .post-article {
+        display: flex;
+        min-width: 350px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .post-article-ultimas {
+        background-color: #f9f9f9;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        padding: 10px;
     }
 
     .momentos  img {
@@ -737,41 +772,41 @@ h3 {
     }
 
     /*--------Box destaque (Filmes & Jogos)----------*/
-    .fundo-destaque-filmes-jogos h3 {
-        color: aliceblue;
-        margin-left: 0px;
-        font-size: 26px;
-        width: 200px;
-    }
+        .fundo-destaque-filmes-jogos h3 {
+            color: aliceblue;
+            margin-left: 0px;
+            font-size: 26px;
+            width: 200px;
+        }
 
-    .fundo-destaque-filmes-jogos-texto > h4 {
-        color: var(--azul-texto);
-        display: inline;
-        font-family: 'oswald', sans-serif;
-        font-weight: 400;
-        font-size: 18px;
-    }
+        .fundo-destaque-filmes-jogos-texto > h4 {
+            color: var(--azul-texto);
+            display: inline;
+            font-family: 'oswald', sans-serif;
+            font-weight: 400;
+            font-size: 18px;
+        }
 
-    .fundo-destaque-filmes-jogos-texto > p {
-        color: var(--cinza-texto);
-        display: inline;
-        font-family: 'oswald', sans-serif;
-        font-size: 18px;
-    }
+        .fundo-destaque-filmes-jogos-texto > p {
+            color: var(--cinza-texto);
+            display: inline;
+            font-family: 'oswald', sans-serif;
+            font-size: 18px;
+        }
 
-    .inferior h4 {
-        font-family: 'oswald', sans-serif;
-        color: var(--azul-texto);
-        font-weight: 400;
-        font-size: 25px;
-    }
+        .inferior h4 {
+            font-family: 'oswald', sans-serif;
+            color: var(--azul-texto);
+            font-weight: 400;
+            font-size: 25px;
+        }
 
-    .inferior p {
-        font-family: 'nunito', sans-serif;
-        color: var(--cinza-texto);
-        font-size: 17px;
-        text-indent: 25px;
-    }
+        .inferior p {
+            font-family: 'nunito', sans-serif;
+            color: var(--cinza-texto);
+            font-size: 17px;
+            text-indent: 25px;
+        }
     
     /*=====================================================*/
 
@@ -792,27 +827,45 @@ h3 {
 
     .post-article {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-items: center;
         text-align: center;
         gap: 10px;
     }
 
-    .article-img{
-        width: 160%;
-    }
+    
 
     .post-article h4 {
-        font-size: 19px;
+        margin-top: 0px;
+        font-size: 24px;
     }
 
     .post-article p {
-        font-size: 12px;
+        font-size: 16px;
+        text-align: left;
+        text-indent: 25px;
     }
 
     .poster-destaque {
         width: 100%;
         margin: auto;
+    }
+
+    .post-article-ultimas {
+        flex-direction: row;
+    }
+
+    .post-article-ultimas img {
+        width: 30%;
+        margin: 0px;
+    }
+
+    .post-article-ultimas h4 {
+        font-size: 15px;
+    }
+
+    .post-article-ultimas p {
+        font-size: 13px;
     }
 
     .fundo-destaque {
