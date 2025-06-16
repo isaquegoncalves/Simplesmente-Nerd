@@ -1,35 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
-        <meta charset="UTF-8" />
+        <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Simplesmente Nerd</title>
-        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="/config/css/estilo.css">
     </head>
     <body>
-        <header>
-            <div class="header-top">
-                <h1>Simplesmente Nerd</h1>
-                <div class="menu-icon" onclick="toggleMenu()">☰</div>
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="pag-conteudo.html">Filmes</a>
-                    <a href="#">Games</a>
-                    <a href="#">Contato</a>
-                    <a href="#">Quem Somos</a>
-                </nav>
-            </div>
-
-            <!--Menu Mobile-->
-            <div class="mobile-nav" id="mobileNav">
-                <button class="close-btn" onclick="toggleMenu()">✖</button>
-                <a href="index.html">Home</a>
-                <a href="pag-conteudo.html">Filmes</a>
-                <a href="#">Games</a>
-                <a href="#">Contato</a>
-                <a href="#">Quem Somos</a>
-            </div>
-        </header>
+        <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/header.php"; ?>
 
         <main>
             <div class="conteudo-principal">
@@ -39,7 +17,7 @@
                 </p>
 
                 <div class="poster-conteudo">
-                    <img src="imagens/banner-gta6-16x9.png" alt="Capa de GTA 6">
+                    <img src="/config/imagens/fotos-games/banner-gta6-16x9.png" alt="Capa de GTA 6">
                 </div>
 
                 <h3 style="width: 350px;">Um Novo Capítulo em Vice City</h3>
@@ -117,9 +95,11 @@
                 <!-----VEJA MAIS----->
                 <h3 style="width: 130px;">Veja mais</h3>
                 <div class="card-container">
-                    <a class="link-articles" href="super.html">
+
+                    <!--SUPERMAN-->
+                    <a class="link-articles" href="/posts/filmes/superman-legacy.php">
                         <div class="card">
-                            <img src="imagens/banner-superman-legacy-1x1.jpg" alt="">
+                            <img src="/config/imagens/fotos-filmes/banner-superman-legacy-1x1.jpg" alt="">
                             <div class="card-text">
                                 <h4>Superman: Legacy</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
@@ -127,9 +107,10 @@
                         </div>
                     </a>
                     
-                    <a class="link-articles" href="thunderbolts.html">
+                    <!--THUNDERBOLTS-->
+                    <a class="link-articles" href="/posts/filmes/thunderbolts.php">
                         <div class="card">
-                            <img src="imagens/thunderbolts-1x1-pequeno.jpeg" alt="Thunderbolts">
+                            <img src="/config/imagens/fotos-filmes/thunderbolts-1x1-pequeno.jpeg" alt="Thunderbolts">
                             <div class="card-text">
                                 <h4>Thunderbolts</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
@@ -137,11 +118,12 @@
                         </div>
                     </a>
                     
-                    <a class="link-articles" href="#">
+                    <!--GTA 6-->
+                    <a class="link-articles" href="/posts/filmes/gta6.php">
                         <div class="card">
-                            <img src="imagens/banner-mafia-1x1-pequeno.jpg" alt="The Batman II">
+                            <img src="/config/imagens/fotos-games/banner-mafia-1x1-pequeno.jpg" alt="capa de mafia">
                             <div class="card-text">
-                                <h4>The Batman II</h4>
+                                <h4>Sobre GTA 6</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
                             </div>
                         </div>
@@ -151,48 +133,7 @@
             
         </main>
 
-        <footer class="custom-footer">
-            <div class="footer-box">
-                <div class="footer-section">
-                    <h3>RECEBA TODAS NOVIDADES</h3>
-                    <p>Inscreva-se em nossa <a href="#">Newsletter</a> e seja notificado sobre as novidades do blog!!!</p>
-                </div>
-
-                <div class="divisor-vertical-grande"></div>
-
-                <div class="footer-section centro">
-                    <h3>CRÉDITOS</h3>
-                    <div class="creditos-info">
-                        <div>
-                            <p class="label">DESENVOLVEDOR</p>
-                            <p class="footer-nomes">Isaque G. S. Brandão</p>
-                        </div>
-
-                        <div class="divisor-vertical"></div>
-                        
-                        <div>
-                            <p class="label">ESCRITOR</p>
-                            <p class="footer-nomes">Saulo Henrique</p>
-                        </div>
-
-                        <div class="divisor-vertical"></div>
-
-                        <div>
-                            <p class="label">APOIO</p>
-                            <p class="footer-nomes">Marcelo Isaías</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="divisor-vertical-grande"></div>
-
-                <div class="footer-section">
-                    <h3>SIGA AS REDES!!</h3>
-                    <p>📺 Simplesmente Nerd</p>
-                    <p>🎵 @simplesmente_nerd</p>
-                </div>
-            </div>
-        </footer>
+        <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/footer.php"; ?>
 
         <script>
             function toggleMenu() {

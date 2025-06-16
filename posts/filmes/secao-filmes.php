@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Simplesmente Nerd</title>
-        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="/config/css/estilo.css">
         <style>
             @media (min-width: 768px) {
                 .conteudo-principal > h3 {
@@ -18,30 +18,7 @@
         </style>
     </head>
     <body>
-        <header> <!--Menus mobile & Desktop-->
-            <!--Menu Desktop-->
-            <div class="header-top">
-                <h1>Simplesmente Nerd</h1>
-                <div class="menu-icon" onclick="toggleMenu()">☰</div>
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="pag-conteudo.html">Filmes</a>
-                    <a href="#">Games</a>
-                    <a href="#">Contato</a>
-                    <a href="#">Quem Somos</a>
-                </nav>
-            </div>
-
-            <!--Menu Mobile-->
-            <div class="mobile-nav" id="mobileNav">
-                <button class="close-btn" onclick="toggleMenu()">✖</button>
-                <a href="index.html">Home</a>
-                <a href="pag-conteudo.html">Filmes</a>
-                <a href="#">Games</a>
-                <a href="#">Contato</a>
-                <a href="#">Quem Somos</a>
-            </div>
-        </header>
+        <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/header.php"; ?>
 
         <main>
             <div class="conteudo-principal">
@@ -55,7 +32,7 @@
                     <!--PARTE SUPERIOR-->
                     <div class="superior">
                         <div class="destaque-filmes-jogos-poster">
-                            <img src="superman-legacy.jpg" alt="Destaque Superman">
+                            <img src="/config/imagens/fotos-filmes/superman-legacy.jpg" alt="Destaque Superman">
                         </div>
                         
                         <div class="fundo-destaque-filmes-jogos-texto">
@@ -100,12 +77,7 @@
                     <!--LANÇAMENTO GTA 6-->
                     <a class="link-articles" href="gta6.html" target="_self"> 
                         <article class="post-article">
-                            <div class="article-img">
-                                <picture>
-                                    <source media="(max-width: 768px)" srcset="banner-gta6-1x1-pequena.png">
-                                    <img src="banner-gta6-16x9.png" alt="Poster gta 6">
-                                </picture>
-                            </div>
+                            <img src="/config/imagens/fotos-filmes/banner-gta6-16x9.png" alt="Poster gta 6">
                             
                             <div class="article-texto">
                                 <h4>Lançamento de GTA 6</h4>
@@ -122,7 +94,7 @@
                             <div class="article-img">
                                 <picture>
                                     <source media="(max-width: 768px)" srcset="thunderbolts-1x1-pequeno.jpeg">
-                                    <img src="thunderbolts-16x9.jpg" alt="Poster Thunderbolts">
+                                    <img src="/config/imagens/fotos-filmes/thunderbolts-16x9.jpg" alt="Poster Thunderbolts">
                                 </picture>
                             </div>
                             
@@ -178,64 +150,40 @@
 
             <!--SEÇÃO VEJA MAIS-->
             <aside class="lateral">
-                <h3>Mais recentes</h3>
+                <h3>Direto do forno</h3>
                 <article>
-                    <img src="https://via.placeholder.com/300x150?text=Avengers+Doomsday" alt="Avengers">
-                    <p>Avengers: Doomsday</p>
+                    <a class="link-articles" href="#" target="_self"> 
+                        <article class="post-article-ultimas">     
+                            <img src="imagens/banner-deathstranding-1x1-pequeno.jpg" alt="Poster gta 6">
+
+                            <div class="article-texto">
+                                <h4>Novidades de Death Strange 2</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                </p>
+                            </div>
+                        </article>
+                    </a>
                 </article>
+                
                 <article>
-                    <img src="https://via.placeholder.com/300x150?text=Thunderbolts" alt="Thunderbolts">
-                    <p>Thunderbolts</p>
-                </article>
-                <article>
-                    <img src="https://via.placeholder.com/300x150?text=Batman+II" alt="Batman">
-                    <p>The Batman II</p>
+                    <a class="link-articles" href="#" target="_self"> 
+                        <article class="post-article-ultimas">     
+                            <img src="imagens/banner-deathstranding-1x1-pequeno.jpg" alt="Poster gta 6">
+
+                            <div class="article-texto">
+                                <h4>Novidades de Death Strange 2</h4>
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                </p>
+                            </div>
+                        </article>
+                    </a>
                 </article>
             </aside>
         </main>
 
-        <footer class="custom-footer">
-            <div class="footer-box">
-                <div class="footer-section">
-                    <h3>RECEBA TODAS NOVIDADES</h3>
-                    <p>Inscreva-se em nossa <a href="#">Newsletter</a> e seja notificado sobre as novidades do blog!!!</p>
-                </div>
-
-                <div class="divisor-vertical-grande"></div>
-
-                <div class="footer-section centro">
-                    <h3>CRÉDITOS</h3>
-                    <div class="creditos-info">
-                        <div>
-                            <p class="label">DESENVOLVEDOR</p>
-                            <p class="footer-nomes">Isaque G. S. Brandão</p>
-                        </div>
-
-                        <div class="divisor-vertical"></div>
-                        
-                        <div>
-                            <p class="label">ESCRITOR</p>
-                            <p class="footer-nomes">Saulo Henrique</p>
-                        </div>
-
-                        <div class="divisor-vertical"></div>
-
-                        <div>
-                            <p class="label">APOIO</p>
-                            <p class="footer-nomes">Marcelo Isaías</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="divisor-vertical-grande"></div>
-
-                <div class="footer-section">
-                    <h3>SIGA AS REDES!!</h3>
-                    <p>📺 Simplesmente Nerd</p>
-                    <p>🎵 @simplesmente_nerd</p>
-                </div>
-            </div>
-        </footer>
+        <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/footer.php"; ?>
 
         <!--Script para ativar o ícone -->
         <script>
