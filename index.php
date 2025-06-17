@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Simplesmente Nerd</title>
         <link rel="stylesheet" href="/config/css/estilo.css">
+        <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/head.php"; ?>
         <style>
             @media (min-width: 768px) {
                 .conteudo-principal > h3 {
@@ -140,11 +141,7 @@
 
         <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/footer.php"; ?>
 
-        <script>
-            function toggleMenu() {
-                const menu = document.getElementById('mobileNav');
-                menu.classList.toggle('active');
-            }
-        </script>
+        <!--Script para ativar o ícone -->
+        <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/javascript/botao-menu.php"; ?>
     </body>
 </html>

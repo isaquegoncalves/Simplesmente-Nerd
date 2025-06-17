@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Simplesmente Nerd</title>
         <link rel="stylesheet" href="/config/css/estilo.css">
+        <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/head.php"; ?>
     </head>
     <body>
         <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/header.php"; ?>
@@ -118,12 +119,12 @@
                         </div>
                     </a>
                     
-                    <!--GTA 6-->
-                    <a class="link-articles" href="/posts/filmes/gta6.php">
+                    <!--SPIDER-MAN UM NOVO LAR-->
+                    <a class="link-articles" href="/posts/filmes/spider-man-um-novo-lar.php">
                         <div class="card">
-                            <img src="/config/imagens/fotos-games/banner-mafia-1x1-pequeno.jpg" alt="capa de mafia">
+                            <img src="/config/imagens/fotos-filmes/banner-spider-man-um-novo-lar-1x1.jpeg" alt="capa de homem aranha um novo lar">
                             <div class="card-text">
-                                <h4>Sobre GTA 6</h4>
+                                <h4>Spider-Man: Um novo lar</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
                             </div>
                         </div>
@@ -137,11 +138,7 @@
 
         <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/footer.php"; ?>
 
-        <script>
-            function toggleMenu() {
-                const menu = document.getElementById('mobileNav');
-                menu.classList.toggle('active');
-            }
-        </script>
+        <!--Script para ativar o ícone -->
+        <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/javascript/botao-menu.php"; ?>
     </body>
 </html>

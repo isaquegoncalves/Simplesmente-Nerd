@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Simplesmente Nerd</title>
         <link rel="stylesheet" href="/config/css/estilo.css">
+        <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/head.php"; ?>
         <style>
             @media (min-width: 768px) {
                 .conteudo-principal > h3 {
@@ -74,13 +75,13 @@
                 <!----ASSUNTOS DO MOMENTO---->
                 <section class="momentos">
                     
-                    <!--LANÇAMENTO GTA 6-->
-                    <a class="link-articles" href="gta6.html" target="_self"> 
+                    <!--SPIDER-MAN: UM NOVO LAR-->
+                    <a class="link-articles" href="spider-man-um-novo-lar.php" target="_self"> 
                         <article class="post-article">
-                            <img src="/config/imagens/fotos-filmes/banner-gta6-16x9.png" alt="Poster gta 6">
+                            <img src="/config/imagens/fotos-filmes/banner-spider-man-um-novo-lar-16x9.jpeg" alt="Poster gta 6">
                             
                             <div class="article-texto">
-                                <h4>Lançamento de GTA 6</h4>
+                                <h4>Em breve: Spider-Man: Um novo lar</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
                                 </p>
@@ -89,15 +90,10 @@
                     </a>
 
                     <!--THUNDERBOLTS-->
-                    <a class="link-articles" href="thunderbolts.html" target="_self"> 
+                    <a class="link-articles" href="thunderbolts.php" target="_self"> 
                         <article class="post-article">
-                            <div class="article-img">
-                                <picture>
-                                    <source media="(max-width: 768px)" srcset="thunderbolts-1x1-pequeno.jpeg">
-                                    <img src="/config/imagens/fotos-filmes/thunderbolts-16x9.jpg" alt="Poster Thunderbolts">
-                                </picture>
-                            </div>
-                            
+                            <img src="/config/imagens/fotos-filmes/thunderbolts-16x9.jpg" alt="Poster Thunderbolts">
+                    
                             <div class="article-texto">
                                 <h4>Análise de Thunderbolts</h4>
                                 <p>
@@ -107,18 +103,13 @@
                         </article>
                     </a>
 
-                    <!--MAFIA-->
-                    <a class="link-articles" href="#" target="_self"> 
+                    <!--THE BATMAN 2-->
+                    <a class="link-articles" href="the-batman2.php" target="_self"> 
                         <article class="post-article">
-                            <div class="article-img">
-                                <picture>
-                                    <source media="(max-width: 768px)" srcset="banner-mafia-1x1-pequeno.jpg">
-                                    <img src="banner-mafia-16x9.jpg" alt="Poster gta 6">
-                                </picture>
-                            </div>
+                            <img src="/config/imagens/fotos-filmes/banner-the-batman2-16x9.png" alt="Poster de The batman 2">
                             
                             <div class="article-texto">
-                                <h4>Detalhes de novo Mafia</h4>
+                                <h4>O que teremos em The Batman 2?</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
                                 </p>
@@ -186,11 +177,6 @@
         <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/footer.php"; ?>
 
         <!--Script para ativar o ícone -->
-        <script>
-            function toggleMenu() {
-                const menu = document.getElementById('mobileNav');
-                menu.classList.toggle('active');
-            }
-        </script>
+        <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/javascript/botao-menu.php"; ?>
     </body>
 </html>

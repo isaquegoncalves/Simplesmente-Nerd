@@ -20,7 +20,7 @@ echo'
         <!--Menu Mobile-->
         <div class="mobile-nav" id="mobileNav">
             <button class="close-btn" onclick="toggleMenu()">✖</button>
-            <a href="/index.html">Home</a>
+            <a href="/index.php">Home</a>
             <a href="/posts/filmes/secao-filmes.php">Filmes</a>
             <a href="#">Games</a>
             <a href="#">Contato</a>
