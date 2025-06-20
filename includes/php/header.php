@@ -11,7 +11,7 @@ echo'
             <nav>
                 <a href="/index.php">Home</a>
                 <a href="/posts/filmes/secao-filmes.php">Filmes</a>
-                <a href="#">Games</a>
+                <a href="/posts/jogos/secao-games.php">Games</a>
                 <a href="#">Contato</a>
                 <a href="#">Quem Somos</a>
             </nav>
@@ -22,7 +22,7 @@ echo'
             <button class="close-btn" onclick="toggleMenu()">✖</button>
             <a href="/index.php">Home</a>
             <a href="/posts/filmes/secao-filmes.php">Filmes</a>
-            <a href="#">Games</a>
+            <a href="/posts/jogos/secao-games.php">Games</a>
             <a href="#">Contato</a>
             <a href="#">Quem Somos</a>
         </div>

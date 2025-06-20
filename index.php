@@ -74,9 +74,9 @@
                     </a>
 
                     <!--MAFIA-->
-                    <a class="link-articles" href="#" target="_self"> 
+                    <a class="link-articles" href="posts/jogos/mafia-the-old-country.php" target="_self"> 
                         <article class="post-article">
-                            <img src="/config/imagens/fotos-games/banner-mafia-16x9.jpg" alt="Poster gta 6">
+                            <img src="/config/imagens/fotos-games/banner-mafia-the-old-country-16x9.jpg" alt="Poster gta 6">
                             
                             <div class="article-texto">
                                 <h4>Detalhes de novo Mafia</h4>
@@ -88,7 +88,7 @@
                     </a>
 
                     <!--DEATH STRANDING-->
-                    <a class="link-articles" href="#" target="_self"> 
+                    <a class="link-articles" href="posts/jogos/death-stranding2.php" target="_self"> 
                         <article class="post-article">
                             <img src="/config/imagens/fotos-games/banner-deathstranding-16x9.jpg" alt="Poster gta 6">
 

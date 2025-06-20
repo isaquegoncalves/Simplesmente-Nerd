@@ -23,45 +23,47 @@
 
         <main>
             <div class="conteudo-principal">
-                <h2 style="text-align: center;">Cinema em foco</h2>
+                <h2 style="text-align: center;">Por dentro dos Games</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quae reprehenderit omnis pariatur modi et molestias! Qui tenetur a facilis et nihil nobis aliquid dolores, pariatur incidunt quisquam temporibus fugiat!</p>
 
                 <!-----BOX DESTAQUE---->
                 <section class="fundo-destaque-filmes-jogos">
-                    <h3>Filme do momento</h3>
+                    <h3>Game do momento</h3>
 
                     <!--PARTE SUPERIOR-->
                     <div class="superior">
                         <div class="destaque-filmes-jogos-poster">
-                            <img src="/config/imagens/fotos-filmes/superman-legacy.jpg" alt="Destaque Superman">
+                            <img src="/config/imagens/fotos-games/banner-destaque-gta6-3x2.jpg" alt="Destaque Superman">
                         </div>
                         
                         <div class="fundo-destaque-filmes-jogos-texto">
-                            <h4>Diretor: </h4> <p>James Gunn</p>
+                            <h4>Diretor: </h4> <p>Rob Nelson</p>
                             <br><br>
 
-                            <h4>Elenco: </h4> <p>David Corenswest</p>
+                            <h4>Elenco: </h4> <p>Manni L. Perez</p>
                             <br>
-                            <p style="margin-left: 46px;">Rachel Brosnahan</p>
+                            <p style="margin-left: 52px;">Jake Silbermann</p>
                             <br>
-                            <p style="margin-left: 46px;">Nathan Fillion</p>
+                            <p style="margin-left: 52px;">Raul Bautista</p>
                             <br><br>
 
-                            <h4>Gênero: </h4> <p>Ficção Cíentifica</p>
+                            <h4>Gênero: </h4> <p>Mundo Aberto</p>
                             <br>
-                            <p style="margin-left: 49px;">Ação</p>
+                            <p style="margin-left: 52px;">Ação</p>
+                            <br>
+                            <p style="margin-left: 52px;">Aventura</p>
                         </div>
                     </div>
 
                     <!--PARTE INFERIOR-->
                     <div class="inferior">
-                        <h4>Superman 2025 - Visão Geral</h4>
+                        <h4>GTA 6 - Visão Geral</h4>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione sint vero, aut pariatur voluptas accusantium, doloribus perspiciatis, facere similique quidem tempore atque neque itaque nihil provident eligendi.
                         </p>
                     </div>
 
-                    <a href="/posts/filmes/superman-legacy.php" class="botao-saiba-mais">
+                    <a href="/posts/jogos/gta6.php" class="botao-saiba-mais">
                         Saiba Mais
                         <span class="icone-seta">➔</span>
                     </a>
@@ -69,19 +71,19 @@
 
                 <br><br>
 
-                <h3>Filmes populares</h3>
+                <h3>Games populares</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint magnam assumenda accusamus. Eaque blanditiis, hic amet numquam suscipit, dignissimos voluptate illum omnis incidunt, nobis eveniet corporis beatae magnam ex? Aperiam.</p>
 
                 <!----ASSUNTOS DO MOMENTO---->
                 <section class="momentos">
                     
-                    <!--SPIDER-MAN: UM NOVO LAR-->
-                    <a class="link-articles" href="spider-man-um-novo-lar.php" target="_self"> 
+                    <!--DEATH STRANDING 2-->
+                    <a class="link-articles" href="/posts/jogos/death-stranding2.php" target="_self"> 
                         <article class="post-article">
-                            <img src="/config/imagens/fotos-filmes/banner-spider-man-um-novo-lar-16x9.jpeg" alt="Poster gta 6">
+                            <img src="/config/imagens/fotos-games/banner-deathstranding-16x9.jpg" alt="Poster gta 6">
                             
                             <div class="article-texto">
-                                <h4>Em breve: Spider-Man: Um novo lar</h4>
+                                <h4>Death Stranding 2</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
                                 </p>
@@ -89,13 +91,13 @@
                         </article>
                     </a>
 
-                    <!--THUNDERBOLTS-->
-                    <a class="link-articles" href="thunderbolts.php" target="_self"> 
+                    <!--MAFIA THE OLD COUNTRY-->
+                    <a class="link-articles" href="/posts/jogos/mafia-the-old-country.php" target="_self"> 
                         <article class="post-article">
-                            <img src="/config/imagens/fotos-filmes/thunderbolts-16x9.jpg" alt="Poster Thunderbolts">
+                            <img src="/config/imagens/fotos-games/banner-mafia-the-old-country-16x9.jpg" alt="Poster Thunderbolts">
                     
                             <div class="article-texto">
-                                <h4>Análise de Thunderbolts</h4>
+                                <h4>Mafia</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
                                 </p>
