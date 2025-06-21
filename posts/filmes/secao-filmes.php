@@ -76,7 +76,7 @@
                 <section class="momentos">
                     
                     <!--SPIDER-MAN: UM NOVO LAR-->
-                    <a class="link-articles" href="spider-man-um-novo-lar.php" target="_self"> 
+                    <a class="link-articles" href="/posts/filmes/spider-man-um-novo-lar.php" target="_self"> 
                         <article class="post-article">
                             <img src="/config/imagens/fotos-filmes/banner-spider-man-um-novo-lar-16x9.jpeg" alt="Poster gta 6">
                             
@@ -90,7 +90,7 @@
                     </a>
 
                     <!--THUNDERBOLTS-->
-                    <a class="link-articles" href="thunderbolts.php" target="_self"> 
+                    <a class="link-articles" href="/posts/filmes/thunderbolts.php" target="_self"> 
                         <article class="post-article">
                             <img src="/config/imagens/fotos-filmes/thunderbolts-16x9.jpg" alt="Poster Thunderbolts">
                     
@@ -104,7 +104,7 @@
                     </a>
 
                     <!--THE BATMAN 2-->
-                    <a class="link-articles" href="the-batman2.php" target="_self"> 
+                    <a class="link-articles" href="/posts/filmes/the-batman2.php" target="_self"> 
                         <article class="post-article">
                             <img src="/config/imagens/fotos-filmes/banner-the-batman2-16x9.png" alt="Poster de The batman 2">
                             
@@ -118,7 +118,7 @@
                     </a>
 
                     <!--AVENGERS DOOMSDAY-->
-                    <a class="link-articles" href="avengers-doomsday.php" target="_self"> 
+                    <a class="link-articles" href="/posts/filmes/avengers-doomsday.php" target="_self"> 
                         <article class="post-article">
                             <img src="/config/imagens/fotos-filmes/banner-avengers-doomsday-16x9.jpg" alt="Poster de Avengers Doomsday">
                             
@@ -138,9 +138,9 @@
             <aside class="lateral">
                 <h3>Direto do forno</h3>
                 <article>
-                    <a class="link-articles" href="#" target="_self"> 
+                    <a class="link-articles" href="/posts/jogos/death-stranding2.php" target="_self"> 
                         <article class="post-article-ultimas">     
-                            <img src="imagens/banner-deathstranding-1x1-pequeno.jpg" alt="Poster gta 6">
+                            <img src="/config/imagens/fotos-games/banner-deathstranding-1x1-pequeno.jpg" alt="Poster gta 6">
 
                             <div class="article-texto">
                                 <h4>Novidades de Death Strange 2</h4>
@@ -153,9 +153,9 @@
                 </article>
                 
                 <article>
-                    <a class="link-articles" href="#" target="_self"> 
+                    <a class="link-articles" href="/posts/jogos/death-stranding2.php" target="_self"> 
                         <article class="post-article-ultimas">     
-                            <img src="imagens/banner-deathstranding-1x1-pequeno.jpg" alt="Poster gta 6">
+                            <img src="/config/imagens/fotos-games/banner-deathstranding-1x1-pequeno.jpg" alt="Poster gta 6">
 
                             <div class="article-texto">
                                 <h4>Novidades de Death Strange 2</h4>

@@ -83,7 +83,7 @@
                             <img src="/config/imagens/fotos-games/banner-deathstranding-16x9.jpg" alt="Poster gta 6">
                             
                             <div class="article-texto">
-                                <h4>Death Stranding 2</h4>
+                                <h4>Novidades de Death Stranding 2</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
                                 </p>
@@ -97,7 +97,7 @@
                             <img src="/config/imagens/fotos-games/banner-mafia-the-old-country-16x9.jpg" alt="Poster Thunderbolts">
                     
                             <div class="article-texto">
-                                <h4>Mafia</h4>
+                                <h4>Mafia: The Old Country</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
                                 </p>
@@ -105,13 +105,13 @@
                         </article>
                     </a>
 
-                    <!--THE BATMAN 2-->
-                    <a class="link-articles" href="the-batman2.php" target="_self"> 
+                    <!--DUNE AWAKENING-->
+                    <a class="link-articles" href="/posts/jogos/dune-awakening.php" target="_self"> 
                         <article class="post-article">
-                            <img src="/config/imagens/fotos-filmes/banner-the-batman2-16x9.png" alt="Poster de The batman 2">
+                            <img src="/config/imagens/fotos-games/banner-dune-awakening-16x9.jpg" alt="Poster dune awakening">
                             
                             <div class="article-texto">
-                                <h4>O que teremos em The Batman 2?</h4>
+                                <h4>Dune: Awakening</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
                                 </p>
@@ -119,13 +119,13 @@
                         </article>
                     </a>
 
-                    <!--AVENGERS DOOMSDAY-->
-                    <a class="link-articles" href="avengers-doomsday.php" target="_self"> 
+                    <!--THE ELDER SCROLLS VI-->
+                    <a class="link-articles" href="/posts/jogos/the-elder-scrolls-vi.php" target="_self"> 
                         <article class="post-article">
-                            <img src="/config/imagens/fotos-filmes/banner-avengers-doomsday-16x9.jpg" alt="Poster de Avengers Doomsday">
+                            <img src="/config/imagens/fotos-games/banner-the-elder-scrolls-vi-16x9.jpg" alt="Poster de The Elder Scrolls 6">
                             
                             <div class="article-texto">
-                                <h4>Doomsday o fim do universo Marvel</h4>
+                                <h4>The Elder Scrolls VI</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
                                 </p>
@@ -140,12 +140,12 @@
             <aside class="lateral">
                 <h3>Direto do forno</h3>
                 <article>
-                    <a class="link-articles" href="#" target="_self"> 
+                    <a class="link-articles" href="/posts/filmes/superman-legacy.php" target="_self"> 
                         <article class="post-article-ultimas">     
-                            <img src="imagens/banner-deathstranding-1x1-pequeno.jpg" alt="Poster gta 6">
+                            <img src="/config/imagens/fotos-filmes/banner-superman-legacy-1x1.jpg" alt="Poster de superman legacy">
 
                             <div class="article-texto">
-                                <h4>Novidades de Death Strange 2</h4>
+                                <h4>Superman: Legacy</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
                                 </p>
@@ -155,12 +155,12 @@
                 </article>
                 
                 <article>
-                    <a class="link-articles" href="#" target="_self"> 
+                    <a class="link-articles" href="/posts/filmes/superman-legacy.php" target="_self"> 
                         <article class="post-article-ultimas">     
-                            <img src="imagens/banner-deathstranding-1x1-pequeno.jpg" alt="Poster gta 6">
+                            <img src="/config/imagens/fotos-filmes/banner-superman-legacy-1x1.jpg" alt="Poster de superman legacy">
 
                             <div class="article-texto">
-                                <h4>Novidades de Death Strange 2</h4>
+                                <h4>Superman: Legacy</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
                                 </p>

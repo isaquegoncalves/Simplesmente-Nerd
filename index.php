@@ -108,12 +108,12 @@
             <aside class="lateral">
                 <h3>Direto do forno</h3>
                 <article>
-                    <a class="link-articles" href="#" target="_self"> 
+                    <a class="link-articles" href="/posts/filmes/superman-legacy.php" target="_self"> 
                         <article class="post-article-ultimas">     
-                            <img src="/config/imagens/fotos-games/banner-deathstranding-1x1-pequeno.jpg" alt="Death Stranding 2">
+                            <img src="/config/imagens/fotos-filmes/banner-superman-legacy-1x1.jpg" alt="Poster de superman legacy">
 
                             <div class="article-texto">
-                                <h4>Novidades de Death Strange 2</h4>
+                                <h4>Superman: Legacy</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
                                 </p>
@@ -123,9 +123,9 @@
                 </article>
                 
                 <article>
-                    <a class="link-articles" href="#" target="_self"> 
+                    <a class="link-articles" href="/posts/jogos/death-stranding2.php" target="_self"> 
                         <article class="post-article-ultimas">     
-                            <img src="/config/imagens/fotos-games/banner-deathstranding-1x1-pequeno.jpg" alt="Death Stranding 2">
+                            <img src="/config/imagens/fotos-games/banner-deathstranding-1x1-pequeno.jpg" alt="Poster gta 6">
 
                             <div class="article-texto">
                                 <h4>Novidades de Death Strange 2</h4>
