@@ -19,7 +19,7 @@
                     <img src="/config/imagens/fotos-filmes/banner-the-batman2-16x9.png" alt="Poster do filme The Batman 2">
                 </div>
 
-                <h3 style="width: 400px;">O que esperar do novo capítulo?</h3>
+                <h3 style="width: 350px;">O que esperar do novo capítulo?</h3>
                 <p>
                     <em>The Batman 2</em> mantém a direção de Matt Reeves e seguirá na linha noir realista estabelecida no primeiro filme. A trama deve explorar as consequências dos eventos anteriores, com Bruce ainda lidando com os efeitos psicológicos de sua cruzada como vigilante, ao mesmo tempo que tenta entender seu papel como símbolo de esperança para Gotham.
                 </p>
@@ -34,19 +34,11 @@
 
                 <br>
 
-                <h3 style="width: 200px;">Conclusão</h3>
+                <h3 style="width: 135px;">Conclusão</h3>
                 <p>
                     O diretor Matt Reeves já afirmou que deseja construir uma trilogia sólida e autoral, com um desenvolvimento gradual dos personagens e da corrupção estrutural de Gotham, criando um universo que flerta com o realismo e deixa espaço para futuras ramificações, como a série do Pinguim (Colin Farrell), que também expandirá esse universo.
                 </p>
 
-                <h3 style="width: 400px;">Trailer oficial de The Batman 2</h3>
-                <div class="video-container">
-                    <iframe 
-                        src="https://www.youtube.com/embed/" 
-                        title="Trailer de The Batman 2"
-                        allowfullscreen
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-                    </iframe>
                 </div>
 
                 <br>

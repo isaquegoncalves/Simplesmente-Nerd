@@ -69,7 +69,7 @@
 
                 <br><br>
 
-                <h3>Filmes populares</h3>
+                <h3 style="width: 210px">Filmes populares</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint magnam assumenda accusamus. Eaque blanditiis, hic amet numquam suscipit, dignissimos voluptate illum omnis incidunt, nobis eveniet corporis beatae magnam ex? Aperiam.</p>
 
                 <!----ASSUNTOS DO MOMENTO---->
@@ -126,6 +126,34 @@
                                 <h4>Doomsday o fim do universo Marvel</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+
+                    <!--SUPERMAN E VINGADORES ULTIMATO TEM ALGO EM COMUM - (Saulo)-->
+                    <a class="link-articles" href="/posts/filmes/superman-e-vingadores-ultimato-tem-algo-em-comum.php" target="_self"> 
+                        <article class="post-article">
+                            <img src="/config/imagens/fotos-filmes/banner-superman-vingadores-16x9.jpg" alt="Poster de Superman e vingadores">
+                            
+                            <div class="article-texto">
+                                <h4>Superman e Vingadores Ultimato têm algo em comum!</h4>
+                                <p>
+                                    O mundo está à beira de testemunhar um dos maiores fenômenos do cinema moderno: o retorno triunfante do Superman. Sob a direção de James Gunn, Superman previsto para estrear em 2025.
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+
+                    <!--Cartoon Network finalmente anuncia a data de Retorno de O Incrível Mundo de Gumball - (Isabella)-->
+                    <a class="link-articles" href="/posts/filmes/o-incrivel-mundo-de-gumball.php" target="_self"> 
+                        <article class="post-article">
+                            <img src="/config/imagens/fotos-filmes/banner-o-incrivel-mundo-de-gumball-16x9.jpg" alt="Poster de Superman e vingadores">
+                            
+                            <div class="article-texto">
+                                <h4>Cartoon Network finalmente anuncia a data de Retorno de O Incrível Mundo de Gumball</h4>
+                                <p>
+                                    A Cartoon Network anunciou nesta segunda-feira (31), por meio de suas redes sociais, a data de lançamento dos novos episódios de O Incrível Mundo de Gumball.
                                 </p>
                             </div>
                         </article>

@@ -21,7 +21,7 @@
           <img src="/config/imagens/fotos-games/post-mafia-the-old-country-16x9.jpg" alt="Poster de Mafia: The Old Country" />
         </div>
 
-        <h3 style="width: 430px">Um retorno ousado às origens</h3>
+        <h3 style="width: 330px">Um retorno ousado às origens</h3>
         <p>
           Ao contrário dos jogos anteriores, que se passavam na América durante as décadas de 30, 40 e 60, <em>The Old Country</em> transporta os jogadores para o coração da Itália — uma terra dominada por famílias mafiosas em ascensão e marcada por guerras internas entre clãs rivais.
         </p>
@@ -32,7 +32,7 @@
 
         <br />
 
-        <h3 style="width: 420px">Ambientação e narrativa mais imersiva</h3>
+        <h3 style="width: 340px">Ambientação e narrativa mais imersiva</h3>
         <p>
           O jogo deve trazer um mapa semiaberto com vilarejos históricos, castelos decadentes e paisagens naturais belíssimas da Sicília. A estética cinematográfica será mantida, com destaque para trilha sonora épica, dublagem de qualidade e narrativa ramificada.
         </p>
@@ -43,13 +43,13 @@
 
         <br>
 
-        <h3 style="width: 400px">Trailer Oficial de Mafia: The Old Country</h3>
+        <h3 style="width: 340px">Trailer de Mafia: The Old Country</h3>
         <div class="video-container">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/AMtLTi0koGE?si=CmpS44V8PweBfx5i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <br />
 
-        <h3 style="width: 300px">Conclusão</h3>
+        <h3 style="width: 130px">Conclusão</h3>
         <p>
           <em>Mafia: The Old Country</em> representa uma volta ousada às raízes, oferecendo não apenas nostalgia aos fãs, mas também um novo ponto de partida para a franquia. Ao focar nas origens da máfia e seus códigos de honra, o jogo promete entregar uma experiência densa, imersiva e profundamente narrativa.
         </p>

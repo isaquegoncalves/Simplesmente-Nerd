@@ -122,7 +122,7 @@ nav a {
 }
 
 .mobile-nav a {
-    color: var(--cinza-texto);
+    color: #dbdbdb;
     
     font-weight: 400;
     font-size: 30px;
@@ -219,6 +219,14 @@ h2 {
     font-family: 'oswald', sans-serif;
     font-weight: 400;
     font-size: 35px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-family: 'oswald', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -528,7 +536,7 @@ h3 {
 /*------------SEÇÃO DE BOXES VOCÊ SABIA?------------*/
     .voce-sabia {
         max-width: 350px;
-        max-height: 1080px;
+        max-height: 1500px;
         border-left: 2px solid #333;
         font-family: "Segoe UI", sans-serif;
         margin-left: 12%;

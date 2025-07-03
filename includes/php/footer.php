@@ -37,8 +37,9 @@
 
                 <div class="footer-section">
                     <h3>SIGA AS REDES!!</h3>
-                    <p>📺 Simplesmente Nerd</p>
-                    <p>🎵 @simplesmente_nerd</p>
+                    <a href="https://youtube.com/@simplesmentenerd?si=57dpr0_Oexzuf8eD" target="_blank"><p><img width="30" height="30" src="https://img.icons8.com/ios-filled/50/FFFFFF/youtube-play.png" alt="youtube-play"/> Simplesmente Nerd</p></a>
+
+                    <a href="https://www.tiktok.com/@simplesmente_nerd?is_from_webapp=1&sender_device=pc" target="_blank"><p><img width="20" height="20" src="https://img.icons8.com/ios-filled/50/FFFFFF/tiktok--v1.png" alt="tiktok--v1"/> @simplesmente_nerd</p></a>
                 </div>
             </div>
         </footer>

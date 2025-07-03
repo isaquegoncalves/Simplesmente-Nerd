@@ -74,20 +74,20 @@
                     <div class="curiosidade">
                         <h4>Primeira HQ do Mundo</h4>
                         <p>
-                        Superman foi o primeiro super-herói de todos, surgindo em Action Comics #1 em 1938, marcando o nascimento oficial dos quadrinhos de super-heróis.
+                            Superman foi o primeiro super-herói de todos, surgindo em Action Comics #1 em 1938, marcando o nascimento oficial dos quadrinhos de super-heróis.
                         </p>
                     </div>
                     <div class="curiosidade">
                         <h4>Já Moveu um Planeta</h4>
                         <p>
-                        Em algumas versões clássicas, Superman era tão poderoso que conseguia mover planetas inteiros com força bruta, literalmente um deus entre mortais.
+                            Em algumas versões clássicas, Superman era tão poderoso que conseguia mover planetas inteiros com força bruta, literalmente um deus entre mortais.
                         </p>
                     </div>
 
                     <div class="curiosidade">
-                        <h4>Já moveu um planeta</h4>
+                        <h4>Elenco</h4>
                         <p>
-                        Em algumas versões clássicas, Superman era tão poderoso que conseguia mover planetas inteiros com força bruta, literalmente um deus entre mortais.
+                            Embora Henry Cavill não esteja no filme, o elenco incluirá atores talentosos que trarão vida ao personagem e aos seus aliados.
                         </p>
                     </div>
                 </section>

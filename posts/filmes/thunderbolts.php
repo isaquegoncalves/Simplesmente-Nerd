@@ -19,7 +19,7 @@
                     <img src="/config/imagens/fotos-filmes/thunderbolts-16x9.jpg" alt="Poster do filme Thunderbolts">
                 </div>
 
-                <h3 style="width: 350px;">Uma Equipe Fora do Comum</h3>
+                <h3 style="width: 320px;">Uma Equipe Fora do Comum</h3>
                 <p>
                     <em>Thunderbolts</em> apresenta um grupo de personagens já conhecidos do público, mas que operam longe dos padrões heroicos da Marvel. A equipe inclui nomes como Yelena Belova (Florence Pugh), Bucky Barnes (Sebastian Stan), Red Guardian (David Harbour), Taskmaster, Ghost e U.S. Agent — todos reunidos sob a supervisão estratégica de Valentina Allegra de Fontaine.
                 </p>
@@ -30,7 +30,7 @@
 
                 <br>
 
-                <h3 style="width: 400px;">Conflitos, Moralidade e Ação Bruta</h3>
+                <h3 style="width: 350px;">Conflitos, Moralidade e Ação Bruta</h3>
                 <p>
                     O grande diferencial do longa é a tensão constante entre os membros da equipe. Cada um traz consigo traumas não resolvidos, passados turbulentos e motivações próprias, o que torna a colaboração algo instável — e perigoso. A dinâmica entre Yelena e Bucky, por exemplo, promete ser um dos pontos centrais, com choques de visão e objetivos conflitantes.
                 </p>
@@ -39,7 +39,7 @@
                     A estética do filme flerta com o thriller de espionagem e a ação tática, saindo da linha colorida e fantasiosa para apostar em algo mais cru, realista e psicológico. O tom mais sombrio se alinha com a proposta de uma Marvel mais adulta e madura, tratando de temas como manipulação governamental, sacrifício e identidade.
                 </p>
 
-                <h3 style="width: 350px;">Trailer oficial de Thunderbolts</h3>
+                <h3 style="width: 330px;">Trailer oficial de Thunderbolts</h3>
                 <div class="video-container">
                     <iframe 
                         src="https://www.youtube.com/embed/MaLy0D2FTDc?si=1UadobS3uLSwKim6" 

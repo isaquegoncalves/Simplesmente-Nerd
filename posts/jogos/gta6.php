@@ -21,7 +21,7 @@
                     <img src="/config/imagens/fotos-games/banner-gta6-16x9.png" alt="Capa de GTA 6">
                 </div>
 
-                <h3 style="width: 350px;">Um Novo Capítulo em Vice City</h3>
+                <h3 style="width: 335px;">Um Novo Capítulo em Vice City</h3>
                 <p>
                     Após anos de especulação, <strong>Grand Theft Auto VI</strong> finalmente foi revelado, trazendo de volta o icônico cenário de Vice City — agora reinventado com tecnologia de ponta. O jogo acompanhará a história de <strong>Lucia</strong>, a primeira protagonista feminina jogável da franquia principal, mergulhando os jogadores em uma trama intensa, cheia de ação e crítica social.
                 </p>
@@ -32,7 +32,7 @@
 
                 <br>
 
-                <h3 style="width: 344px;">Tecnologia, Narrativa e Ambição</h3>
+                <h3 style="width: 335px;">Tecnologia, Narrativa e Ambição</h3>
                 <p>
                     A Rockstar apostou alto em inovações técnicas. <strong>GTA 6</strong> utiliza uma nova engine gráfica que entrega ambientes ainda mais realistas, ciclos de clima dinâmicos, comportamentos de NPCs avançados e um sistema de física aprimorado. Tudo isso colabora para uma sensação de imersão ainda mais profunda no caos controlado do mundo aberto.
                 </p>
@@ -47,7 +47,7 @@
 
                 <br>
 
-                <h3 style="width: 300px;">Trailer oficial de GTA 6</h3>
+                <h3 style="width: 260px;">Trailer oficial de GTA 6</h3>
                 <div class="video-container">
                     <iframe 
                         src="https://www.youtube.com/embed/QdBZY2fkU-0" 

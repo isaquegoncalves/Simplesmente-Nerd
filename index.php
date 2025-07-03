@@ -34,7 +34,7 @@
                     <div class="fundo-destaque">
                         <h4><a style="text-decoration: none; color: inherit;" href="/posts/filmes/superman-legacy.php">Superman 2025 - Visão Geral</a></h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione sint vero, aut pariatur voluptas accusantium, doloribus perspiciatis, facere similique quidem tempore atque neque itaque nihil provident eligendi laudantium at. A.
+                            Prepare-se para conhecer um Superman completamente renovado. Com uma abordagem ousada, emocional e atual, o novo filme promete redefinir o herói mais icônico da DC e reacender a esperança do estúdio nas telonas.
                         </p>
                     </div>
                 </section>

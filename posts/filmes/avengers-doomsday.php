@@ -21,7 +21,7 @@
           <img src="/config/imagens/fotos-filmes/post-avengers-doomsday-16x9.jpg" alt="Poster de Avengers Doomsday" />
         </div>
 
-        <h3 style="width: 400px">Um novo tipo de ameaça à vista</h3>
+        <h3 style="width: 315px">Um novo tipo de ameaça à vista</h3>
         <p>
           Após os eventos de <em>Kang: Dinastia</em> e <em>Guerras Secretas</em>, o universo Marvel está prestes a entrar em uma reconstrução total. <em>Avengers Doomsday</em> surge como um possível divisor de águas, que pode representar a fusão de realidades ou o início de um colapso temporal completo.
         </p>
@@ -33,7 +33,7 @@
 
         <br />
 
-        <h3 style="width: 400px">Ligações com o multiverso</h3>
+        <h3 style="width: 295px">Ligações com o multiverso</h3>
         <p>
           O Doomsday não parece ser apenas uma ameaça física, mas um evento cósmico com implicações multiversais. As consequências do embate com Kang ainda reverberam pelas linhas do tempo, e este novo capítulo promete explorar o custo dessas rupturas.
         </p>
@@ -44,10 +44,12 @@
 
         <br />
 
-        <h3 style="width: 300px">Conclusão</h3>
+        <h3 style="width: 140px">Conclusão</h3>
         <p>
           Com <em>Avengers Doomsday</em>, a Marvel parece apostar alto em um enredo mais maduro, com tons apocalípticos e complexidade emocional. A ausência de heróis clássicos, como Tony Stark e Steve Rogers, abre espaço para um novo núcleo enfrentar as maiores ameaças do universo cinematográfico.
         </p>
+
+        <br><br>
 
         <!-----VOCÊ SABIA----->
         <section class="voce-sabia">

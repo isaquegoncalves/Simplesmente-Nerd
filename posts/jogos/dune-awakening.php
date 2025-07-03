@@ -21,7 +21,7 @@
           <img src="/config/imagens/fotos-games/banner-dune-awakening-16x9.jpg" alt="Poster de Dune: Awakening" />
         </div>
 
-        <h3 style="width: 370px;">Desenvolvimento e Mundo Vivo</h3>
+        <h3 style="width: 340px;">Desenvolvimento e Mundo Vivo</h3>
         <p>
           Produzido pela Funcom (mesmo estúdio responsável por <em>Conan Exiles</em>), <em>Dune: Awakening</em> combina elementos clássicos de jogos de sobrevivência com mecânicas modernas de MMO. O jogador cria seu próprio personagem e precisa se adaptar ao deserto de Arrakis: extrair água, evitar tempestades de areia, enfrentar vermes da areia e lidar com facções rivais que disputam a especiaria — o recurso mais valioso do universo.
         </p>
@@ -34,14 +34,14 @@
           Visualmente, o jogo aposta em uma direção de arte mais realista, seguindo o estilo visual dos filmes de Denis Villeneuve. A atmosfera é densa e imersiva, com destaque para a trilha sonora ambiental e para os efeitos climáticos extremos.
         </p>
 
-        <h3 style="width: 400px;">Trailer de Gameplay de Dune Awakening</h3>
+        <h3 style="width: 340px;">Trailer de Gameplay de Dune Awakening</h3>
         <div class="video-container">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/1S-l7NySFsI?si=XV18mQb8YboHSVsq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
         <br>
 
-        <h3 style="width: 250px;">Conclusão</h3>
+        <h3 style="width: 140px;">Conclusão</h3>
         <p>
           <em>Dune: Awakening</em> não é apenas mais um jogo de sobrevivência — é uma adaptação ambiciosa de um universo complexo. A proposta de um MMO em Arrakis, com suas regras brutais de sobrevivência e suas intrigas políticas, é promissora.
         </p>

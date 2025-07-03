@@ -21,7 +21,7 @@
                     <img src="/config/imagens/fotos-games/banner-the-elder-scrolls-vi-16x9.jpg" alt="Poster de The Elder Scrolls VI" />
                 </div>
 
-                <h3 style="width: 390px;">Uma Nova Região e um Mundo Vivo</h3>
+                <h3 style="width: 340px;">Uma Nova Região e um Mundo Vivo</h3>
                 <p>
                     Desde o teaser revelado em 2018, fãs especulam sobre qual será a próxima província explorada. As apostas mais fortes estão em <em>Hammerfell</em> ou <em>High Rock</em>, regiões até então pouco aprofundadas na série. A escolha pode marcar uma virada estética e cultural significativa para o universo da saga.
                 </p>
@@ -32,7 +32,7 @@
                     Outro ponto importante é a <strong>imersão narrativa</strong>: Todd Howard já indicou que o time de roteiristas busca criar histórias mais densas, com múltiplas ramificações, voltadas tanto para quem joga em ritmo lento quanto para quem explora agressivamente.
                 </p>
 
-                <h3 style="width: 400px;">Novas Mecânicas e Clássicos Repaginados</h3>
+                <h3 style="width: 340px;">Novas Mecânicas e Clássicos Repaginados</h3>
                 <p>
                     <em>The Elder Scrolls VI</em> deve reinventar várias mecânicas conhecidas da série. As árvores de habilidades devem ser mais complexas, mas também mais intuitivas. Sistemas de sobrevivência, construção e gerenciamento de território — inspirados por mods populares — podem ser incorporados diretamente ao jogo base.
                 </p>
@@ -43,14 +43,14 @@
                     No combate, há rumores de que novas magias, estilos de luta, e talvez até suporte a comandos por voz (em plataformas específicas) sejam implementados para tornar a experiência mais envolvente.
                 </p>
 
-                <h3 style="width: 400px;">Teaser oficial de The Elder Scrolls VI</h3>
+                <h3 style="width: 330px;">Teaser de The Elder Scrolls VI</h3>
                 <div class="video-container">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/OkFdqqyI8y4?si=pIxmk17Wwu6ko3FC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
 
                 <br>
 
-                <h3 style="width: 250px;">Conclusão</h3>
+                <h3 style="width: 150px;">Conclusão</h3>
                 <p>
                     <em>The Elder Scrolls VI</em> carrega consigo o peso de ser o sucessor de um dos jogos mais celebrados da história. Mais do que apenas gráficos modernos, os jogadores esperam um mundo verdadeiramente vivo, uma liberdade quase absoluta e uma narrativa que acompanhe a evolução da indústria nos últimos 10 anos.
                 </p>

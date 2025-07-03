@@ -19,7 +19,7 @@
                     <img src="/config/imagens/fotos-filmes/post-spider-man-um-novo-lar-16x9.jpg" alt="Poster de Spider-Man: Um Novo Dia">
                 </div>
 
-                <h3 style="width: 350px;">Um Título Que Carrega Recomeços</h3>
+                <h3 style="width: 320px;">Um Título Que Carrega Recomeços</h3>
                 <p>
                     O nome <em>"Um Novo Dia"</em> representa literalmente um recomeço após perdas e consequências severas dos últimos arcos. Peter está emocionalmente abalado, mas determinado a consertar o que pode... mesmo que isso custe partes de sua própria vida pessoal.
                 </p>
@@ -29,23 +29,13 @@
 
                 <br>
 
-                <h3 style="width: 400px;">O Multiverso Ainda Assombra Peter</h3>
+                <h3 style="width: 320px;">O Multiverso Ainda Assombra Peter</h3>
                 <p>
                     Mesmo após o fechamento parcial dos portais multiversais, resquícios de outras dimensões continuam influenciando o presente. Vilões alternativos como o <em>Duende de Ferro</em> e <em>Aranha Escarlate Caído</em> fazem aparições estranhas, forçando Peter a questionar até que ponto a linha do tempo está realmente consertada.
                 </p>
                 <p>
                     Nick Fury retorna com informações obscuras sobre uma nova ameaça interdimensional que visa os “tótens aranha” — entidades que representam o arquétipo do Aranha em todos os universos.
                 </p>
-
-                <h3 style="width: 350px;">Trailer oficial de Spider-Man: Um Novo Dia</h3>
-                <div class="video-container">
-                    <iframe 
-                        src="https://www.youtube.com/embed/spider-trailer" 
-                        title="Trailer de Spider-Man: Um Novo Dia"
-                        allowfullscreen
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-                    </iframe>
-                </div>
 
                 <br>
 

@@ -21,7 +21,7 @@
           <img src="/config/imagens/fotos-games/banner-deathstranding-16x9.jpg" alt="Poster de Death Stranding 2" />
         </div>
 
-        <h3 style="width: 450px">O que esperar dessa nova jornada?</h3>
+        <h3 style="width: 340px">O que esperar dessa nova jornada?</h3>
         <p>
           A trama de <em>On the Beach</em> continua a história de Sam Porter Bridges (Norman Reedus), agora com uma aparência mais envelhecida e uma missão mais complexa. Fragile (Lea Seydoux) ganha destaque nesta sequência, liderando uma nova organização chamada Drawbridge, que busca expandir os limites da reconexão humana em um mundo ainda marcado pelo isolamento e pela ameaça do Death Stranding.
         </p>
@@ -32,7 +32,7 @@
 
         <br />
 
-        <h3 style="width: 400px">Expansão de conceitos e conexões</h3>
+        <h3 style="width: 340px">Expansão de conceitos e conexões</h3>
         <p>
           O trailer mais recente revela elementos simbólicos como cordões umbilicais, máscaras inquietantes e ambientes surrealistas que indicam uma fusão ainda maior entre vida, morte e tecnologia. O próprio Kojima indicou que “o jogo foi reescrito após a pandemia”, trazendo reflexões mais profundas sobre isolamento, propósito coletivo e vulnerabilidade emocional.
         </p>
@@ -50,7 +50,7 @@
 
         <br />
 
-        <h3 style="width: 320px">Reflexão sobre o mundo moderno</h3>
+        <h3 style="width: 340px">Reflexão sobre o mundo moderno</h3>
         <p>
           <em>Death Stranding 2</em> não se contenta em ser apenas uma continuação. Ele busca provocar, emocionar e questionar. Com seu estilo único, Kojima transforma o jogo em uma metáfora sobre o estado emocional da humanidade em tempos de crise — e sobre o que realmente nos conecta.
         </p>
