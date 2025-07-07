@@ -13,6 +13,8 @@
         <main>
             <div class="conteudo-principal">
                 <h2>Superman e Vingadores Ultimato têm algo em comum!</h2>
+                <p class="data-autor">Por Saulo Henrique - 02/07/2025</p>
+
                 <p>
                     O mundo está à beira de testemunhar um dos maiores fenômenos do cinema moderno: o retorno triunfante do Superman. Sob a direção de James Gunn, <em>Superman</em> — previsto para estrear em 2025 — é amplamente apontado como o filme mais aguardado do ano e um forte candidato a ultrapassar a marca de US$1 bilhão em bilheteria global.
                 </p>
@@ -56,37 +58,27 @@
 
                 <p>Abaixo teremos os Fatores Que Impulsionam o Sucesso Deste Filme Tão Aguardado</p>
 
-                <!-----VOCÊ SABIA----->
-                <section class="voce-sabia">
-                    <h3 class="titulo-box">Você Sabia?</h3>
-                    <div class="curiosidade">
-                        <h4>O Renascimento da Esperança</h4>
-                        <p>
-                            Superman é mais do que um herói: é um símbolo cultural. O público está sedento por um super-herói que represente valores positivos, especialmente após anos de narrativas densas. James Gunn prometeu um Superman "bondoso, mas não ingênuo", o que pode atrair tanto os fãs antigos quanto uma nova geração, além da diferença do último filme que tivemos do Superman, algo mais sombrio e totalmente diferente do personagem clássico, sim, eu estou falando de Man of Steel, que apesar de eu (Saulo Henrique) gostar, sabemos que não existe essência de esperança que temos nas Hqs.
-                        </p>
-                    </div>
+                <h3 style="width: 340px;">O Renascimento da Esperança</h3>
+                <p>
+                    Superman é mais do que um herói: é um símbolo cultural. O público está sedento por um super-herói que represente valores positivos, especialmente após anos de narrativas densas. James Gunn prometeu um Superman "bondoso, mas não ingênuo", o que pode atrair tanto os fãs antigos quanto uma nova geração, além da diferença do último filme que tivemos do Superman, algo mais sombrio e totalmente diferente do personagem clássico, sim, eu estou falando de Man of Steel, que apesar de eu (Saulo Henrique) gostar, sabemos que não existe essência de esperança que temos nas Hqs.
+                </p>
 
-                    <div class="curiosidade">
-                        <h4>Um Universo Compartilhado com Direção Clara</h4>
-                        <p>
-                            Ao contrário do DCEU anterior, o novo DCU tem um plano coeso: "Superman" será o primeiro passo, seguido por projetos como “The Brave and the Bold” (Batman) e “Supergirl: Woman of Tomorrow" que estreia ano que vem. Isso cria expectativa em torno de conexões, easter eggs e universo expansível — algo que os fãs amam desde os tempos da Marvel Fase 1.
-                        </p>
-                    </div>
+                <h3 style="width: 340px;">Um Universo Compartilhado com Direção Clara</h3>
+                <p>
+                    Ao contrário do DCEU anterior, o novo DCU tem um plano coeso: "Superman" será o primeiro passo, seguido por projetos como “The Brave and the Bold” (Batman) e “Supergirl: Woman of Tomorrow" que estreia ano que vem. Isso cria expectativa em torno de conexões, easter eggs e universo expansível — algo que os fãs amam desde os tempos da Marvel Fase 1.
+                </p>
 
-                    <div class="curiosidade">
-                        <h4>James Gunn: O Midas dos Super-Heróis</h4>
-                        <p>
-                            Não se pode ignorar o nome de Gunn. Ele transformou personagens de nicho como Rocket Raccoon e Peacemaker em ícones da cultura pop. Agora, com liberdade criativa total, ele promete entregar um Superman com alma, coração e espetáculo! A propósito, o Krypto só com os trailers já virou um ícone, bizarro como o James Gunn é gênio! 
-                        </p>
-                    </div>
+                <h3 style="width: 340px;">James Gunn: O Midas dos Super-Heróis</h3>
+                <p>
+                    Não se pode ignorar o nome de Gunn. Ele transformou personagens de nicho como Rocket Raccoon e Peacemaker em ícones da cultura pop. Agora, com liberdade criativa total, ele promete entregar um Superman com alma, coração e espetáculo! A propósito, o Krypto só com os trailers já virou um ícone, bizarro como o James Gunn é gênio! 
+                </p>
+                
+                <h3 style="width: 340px;">A Força das Marcas Associadas</h3>
+                <p>
+                    Com parcerias já sinalizadas com empresas como McDonald's, Lego e Nike para linhas temáticas e promoções, o filme terá exposição em múltiplas frentes, ampliando sua presença global — especialmente importante em mercados como China e América Latina. Ademais, o marketing nas redes sociais está sendo incrível, cada brincadeira do elenco, cada vídeo só faz termos mais carinho pelos personagens e atores. Portanto, com tudo isso pessoal, é nítido que Superman baterá 1 BILHÃO DE DÓLARES, pode anotar e depois me cobrar!
+                </p>
 
-                    <div class="curiosidade">
-                        <h4>A Força das Marcas Associadas</h4>
-                        <p>
-                            Com parcerias já sinalizadas com empresas como McDonald's, Lego e Nike para linhas temáticas e promoções, o filme terá exposição em múltiplas frentes, ampliando sua presença global — especialmente importante em mercados como China e América Latina. Ademais, o marketing nas redes sociais está sendo incrível, cada brincadeira do elenco, cada vídeo só faz termos mais carinho pelos personagens e atores. Portanto, com tudo isso pessoal, é nítido que Superman baterá 1 BILHÃO DE DÓLARES, pode anotar e depois me cobrar!
-                        </p>
-                    </div>
-                </section>
+                <br>
 
                 <!-----VEJA MAIS----->
                 <h3 style="width: 130px;">Veja mais</h3>

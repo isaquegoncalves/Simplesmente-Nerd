@@ -47,6 +47,7 @@
                 <p>Desenvolvedor - Isaque G. S. Brandão</p>
                 <p>Escritor - Marcelo Isaías</p>
                 <p>Escritor - Olavo Autieri</p>
+                <p>Escritora - Isabella</p>
                 
             </div>
         </main>

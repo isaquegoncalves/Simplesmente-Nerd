@@ -57,7 +57,7 @@
                     <div class="inferior">
                         <h4>Superman 2025 - Visão Geral</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione sint vero, aut pariatur voluptas accusantium, doloribus perspiciatis, facere similique quidem tempore atque neque itaque nihil provident eligendi.
+                            Prepare-se para conhecer um Superman completamente renovado. Com uma abordagem ousada, emocional e atual, o novo filme promete redefinir o herói mais icônico da DC e reacender a esperança do estúdio nas telonas.
                         </p>
                     </div>
 
@@ -83,7 +83,7 @@
                             <div class="article-texto">
                                 <h4>Em breve: Spider-Man: Um novo lar</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    Após eventos que estremeceram a linha do tempo do universo Marvel, "Spider-Man: Um Novo Dia" surge como um ponto de virada para Peter Parker e o legado do Homem-Aranha.
                                 </p>
                             </div>
                         </article>
@@ -97,7 +97,7 @@
                             <div class="article-texto">
                                 <h4>Análise de Thunderbolts</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    Quando o governo decide que os heróis tradicionais já não bastam, uma nova força-tarefa é convocada, e ela não é exatamente feita de mocinhos.
                                 </p>
                             </div>
                         </article>
@@ -111,7 +111,7 @@
                             <div class="article-texto">
                                 <h4>O que teremos em The Batman 2?</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    Após o sucesso de The Batman (2022), Robert Pattinson retorna ao papel de Bruce Wayne em uma nova história sombria e intensa. The Batman 2 promete expandir a mitologia do herói com novos vilões, dilemas morais mais profundos e um Gotham ainda mais caótico.
                                 </p>
                             </div>
                         </article>
@@ -125,7 +125,7 @@
                             <div class="article-texto">
                                 <h4>Doomsday o fim do universo Marvel</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    Avengers Doomsday promete ser mais do que apenas um novo filme, é um marco que pode redefinir todo o Universo Cinematográfico Marvel após os eventos do Multiverso. 
                                 </p>
                             </div>
                         </article>
@@ -148,12 +148,40 @@
                     <!--Cartoon Network finalmente anuncia a data de Retorno de O Incrível Mundo de Gumball - (Isabella)-->
                     <a class="link-articles" href="/posts/filmes/o-incrivel-mundo-de-gumball.php" target="_self"> 
                         <article class="post-article">
-                            <img src="/config/imagens/fotos-filmes/banner-o-incrivel-mundo-de-gumball-16x9.jpg" alt="Poster de Superman e vingadores">
+                            <img src="/config/imagens/fotos-filmes/banner-o-incrivel-mundo-de-gumball-16x9.jpg" alt="Poster de O novo incrivel mundo de Gumball">
                             
                             <div class="article-texto">
                                 <h4>Cartoon Network finalmente anuncia a data de Retorno de O Incrível Mundo de Gumball</h4>
                                 <p>
                                     A Cartoon Network anunciou nesta segunda-feira (31), por meio de suas redes sociais, a data de lançamento dos novos episódios de O Incrível Mundo de Gumball.
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+
+                    <!--Mephisto finalmente apareceu, mas não como o público esperava!-->
+                    <a class="link-articles" href="/posts/filmes/mefisto-finalmente-apareceu-mas-nao-como-o-publico-esperava.php" target="_self"> 
+                        <article class="post-article">
+                            <img src="/config/imagens/fotos-filmes/banner-mefisto-16x9.jpg" alt="Poster de Superman e vingadores">
+                            
+                            <div class="article-texto">
+                                <h4>Mephisto finalmente apareceu, mas não como o público esperava!</h4>
+                                <p>
+                                    Depois de anos de teorias, rumores e expectativas alimentadas pela própria Marvel, Mephisto finalmente deu as caras no MCU mas não do jeito que os fãs esperavam.
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+
+                    <!--Série Coração de Ferro Parece Coração de Pedra! Sujando o Legado de Tony Stark-->
+                    <a class="link-articles" href="/posts/filmes/serie-coracao-de-ferro-parece-coracao-de-pedra-sujando-legado-de-tony-stark.php" target="_self"> 
+                        <article class="post-article">
+                            <img src="/config/imagens/fotos-filmes/banner-coracao-de-ferro-16x9.png" alt="Poster de coração de ferro da marvel">
+                            
+                            <div class="article-texto">
+                                <h4>Série Coração de Ferro Parece Coração de Pedra! Sujando o Legado de Tony Stark</h4>
+                                <p>
+                                    Prepare o reator arc e segure o capacete, porque precisamos conversar seriamente sobre Coração de Ferro, a série que prometia ser a herdeira espiritual do Homem de Ferro no MCU, e falhou espetacularmente em quase todos os quesitos.
                                 </p>
                             </div>
                         </article>

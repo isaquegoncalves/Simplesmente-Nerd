@@ -97,38 +97,14 @@
                 <h3 style="width: 130px;">Veja mais</h3>
                 <div class="card-container">
 
-                    <!--SUPERMAN-->
-                    <a class="link-articles" href="/posts/filmes/superman-legacy.php">
-                        <div class="card">
-                            <img src="/config/imagens/fotos-filmes/banner-superman-legacy-1x1.jpg" alt="">
-                            <div class="card-text">
-                                <h4>Superman: Legacy</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-                            </div>
-                        </div>
-                    </a>
+                    <!--Superman: Legacy-->
+                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-avengers-doomsday.php"; ?>
                     
-                    <!--THUNDERBOLTS-->
-                    <a class="link-articles" href="/posts/filmes/thunderbolts.php">
-                        <div class="card">
-                            <img src="/config/imagens/fotos-filmes/thunderbolts-1x1-pequeno.jpeg" alt="Thunderbolts">
-                            <div class="card-text">
-                                <h4>Thunderbolts</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-                            </div>
-                        </div>
-                    </a>
+                    <!--Thunderbolts-->
+                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-thunderbolts.php"; ?>
                     
                     <!--SPIDER-MAN UM NOVO LAR-->
-                    <a class="link-articles" href="/posts/filmes/spider-man-um-novo-lar.php">
-                        <div class="card">
-                            <img src="/config/imagens/fotos-filmes/banner-spider-man-um-novo-lar-1x1.jpeg" alt="capa de homem aranha um novo lar">
-                            <div class="card-text">
-                                <h4>Spider-Man: Um novo lar</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-                            </div>
-                        </div>
-                    </a>
+                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-spider-man-um-novo-lar.php"; ?>
                 </div>
             </div>
             

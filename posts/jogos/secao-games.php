@@ -59,7 +59,7 @@
                     <div class="inferior">
                         <h4>GTA 6 - Visão Geral</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione sint vero, aut pariatur voluptas accusantium, doloribus perspiciatis, facere similique quidem tempore atque neque itaque nihil provident eligendi.
+                            Prepare-se para a revolução no mundo dos games. GTA 6 chega com a promessa de elevar o patamar da narrativa, jogabilidade e realismo no universo dos jogos de mundo aberto, representando um marco para a Rockstar Games e para toda a indústria.
                         </p>
                     </div>
 
@@ -85,7 +85,7 @@
                             <div class="article-texto">
                                 <h4>Novidades de Death Stranding 2</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    A sequência do enigmático e aclamado jogo de Hideo Kojima está chegando. Death Stranding 2, oficialmente intitulado Death Stranding 2: On the Beach, promete expandir os limites narrativos e visuais do universo pós-apocalíptico criado em 2019.
                                 </p>
                             </div>
                         </article>
@@ -99,7 +99,7 @@
                             <div class="article-texto">
                                 <h4>Mafia: The Old Country</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    Com ambientação na Sicília do início do século 20, o jogo retorna à essência da máfia, explorando honra, vingança, tradição e laços de sangue.
                                 </p>
                             </div>
                         </article>
@@ -113,7 +113,7 @@
                             <div class="article-texto">
                                 <h4>Dune: Awakening</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    Em Dune: Awakening, os jogadores são transportados para o implacável planeta Arrakis, em um MMO de sobrevivência em mundo aberto ambientado no universo de Frank Herbert. 
                                 </p>
                             </div>
                         </article>
@@ -127,7 +127,21 @@
                             <div class="article-texto">
                                 <h4>The Elder Scrolls VI</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    Após mais de uma década desde o aclamado Skyrim, a Bethesda se prepara para lançar The Elder Scrolls VI, o aguardado novo capítulo da icônica franquia de RPGs medievais.
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+
+                    <!--Dying Light: The Beast - O JOGO DE ZUMBI MAIS AGUARDADO DO ANO!-->
+                    <a class="link-articles" href="/posts/jogos/o-jogo-de-zumbi-mais-aguardado-do-ano.php" target="_self"> 
+                        <article class="post-article">
+                            <img src="/config/imagens/fotos-games/banner-dying-light-the-beast-16x9.jpg" alt="Poster de The Elder Scrolls 6">
+                            
+                            <div class="article-texto">
+                                <h4>Dying Light: The Beast</h4>
+                                <p>
+                                    O tão querido e amado jogo pós-apocaliptico volta com o seu terceiro jogo da franquia. Dying light: the beast não só retorna trazendo uma cara já conhecida pelo seu público, como também um novo mapa, novos gráficos, novas mecânicas e novas formas de dilacerar zumbis.
                                 </p>
                             </div>
                         </article>

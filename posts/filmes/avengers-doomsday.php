@@ -80,38 +80,16 @@
         <!-----VEJA MAIS----->
         <h3 style="width: 130px">Veja mais</h3>
         <div class="card-container">
-          <!--SUPERMAN-->
-          <a class="link-articles" href="/posts/filmes/superman-legacy.php">
-            <div class="card">
-              <img src="/config/imagens/fotos-filmes/banner-superman-legacy-1x1.jpg" alt="Superman Legacy" />
-              <div class="card-text">
-                <h4>Superman: Legacy</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-              </div>
-            </div>
-          </a>
+          
+          <!--Coração de ferro-->
+          <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-serie-coracao-de-ferro-parece-coracao-de-pedra-sujando-legado-de-tony-stark.php"; ?>
 
-          <!--THUNDERBOLTS-->
-          <a class="link-articles" href="/posts/filmes/thunderbolts.php">
-            <div class="card">
-              <img src="/config/imagens/fotos-filmes/thunderbolts-1x1-pequeno.jpeg" alt="Thunderbolts" />
-              <div class="card-text">
-                <h4>Thunderbolts</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-              </div>
-            </div>
-          </a>
+          <!--Thunderbolts-->
+            <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-thunderbolts.php"; ?>
 
-          <!--DEATH STRANDING-->
-          <a class="link-articles" href="/posts/games/death-stranding-2.php">
-            <div class="card">
-              <img src="/config/imagens/fotos-games/banner-deathstranding-1x1-pequeno.jpg" alt="Capa de Death Stranding 2" />
-              <div class="card-text">
-                <h4>Death Stranding 2</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-              </div>
-            </div>
-          </a>
+          <!--Mefisto apareceu-->
+            <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-mefisto-finalmente-apareceu-mas-nao-como-o-publico-esperava.php"; ?>
+
         </div>
       </div>
     </main>

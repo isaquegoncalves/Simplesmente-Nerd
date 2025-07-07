@@ -13,6 +13,8 @@
         <main>
             <div class="conteudo-principal">
                 <h2>Cartoon Network anuncia retorno de Gumball com nova série</h2>
+                <p class="data-autor">Por Isabella - 03/07/2025</p>
+
                 <p>
                     A Cartoon Network anunciou nesta segunda-feira (31), por meio de suas redes sociais, a data de lançamento dos novos episódios de <em>O Incrível Mundo de Gumball</em>.
                 </p>
