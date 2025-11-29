@@ -629,7 +629,7 @@ h3 {
 
     .footer-section a {
         color: #fff;
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     .footer-section p {

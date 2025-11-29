@@ -24,7 +24,7 @@
         <main>
             <div class="conteudo-principal">
                 <h2 style="text-align: center;">Cinema em foco</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quae reprehenderit omnis pariatur modi et molestias! Qui tenetur a facilis et nihil nobis aliquid dolores, pariatur incidunt quisquam temporibus fugiat!</p>
+                <p>A câmera girou, a luz acendeu e você chegou ao lugar certo! No Cinema em Foco, você acompanha tudo sobre os filmes que estão mexendo com o hype da galera, dos blockbusters épicos às surpresas que ninguém viu chegando.</p>
 
                 <!-----BOX DESTAQUE---->
                 <section class="fundo-destaque-filmes-jogos">
@@ -70,7 +70,7 @@
                 <br><br>
 
                 <h3 style="width: 210px">Filmes populares</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint magnam assumenda accusamus. Eaque blanditiis, hic amet numquam suscipit, dignissimos voluptate illum omnis incidunt, nobis eveniet corporis beatae magnam ex? Aperiam.</p>
+                <p>Aqui você encontra os filmes que estão bombando ultimamente! Os queridinhos do público, os mais comentados nas redes e aquelas produções que simplesmente não dá pra ignorar.</p>
 
                 <!----ASSUNTOS DO MOMENTO---->
                 <section class="momentos">
@@ -106,7 +106,7 @@
                     <!--THE BATMAN 2-->
                     <a class="link-articles" href="/posts/filmes/the-batman2.php" target="_self"> 
                         <article class="post-article">
-                            <img src="/config/imagens/fotos-filmes/banner-the-batman2-16x9.png" alt="Poster de The batman 2">
+                            <img src="/config/imagens/fotos-filmes/banner-the-batman2-16x9.jpeg" alt="Poster de The batman 2">
                             
                             <div class="article-texto">
                                 <h4>O que teremos em The Batman 2?</h4>
@@ -193,35 +193,55 @@
             <!--SEÇÃO VEJA MAIS-->
             <aside class="lateral">
                 <h3>Direto do forno</h3>
+
+                <!--GTA 6-->
                 <article>
-                    <a class="link-articles" href="/posts/jogos/death-stranding2.php" target="_self"> 
+                    <a class="link-articles" href="/posts/jogos/gta6.php" target="_self"> 
                         <article class="post-article-ultimas">     
-                            <img src="/config/imagens/fotos-games/banner-deathstranding-1x1-pequeno.jpg" alt="Poster gta 6">
+                            <img src="/config/imagens/fotos-games/banner-gta6-1x1-pequena.png" alt="Poster de gta 6">
 
                             <div class="article-texto">
-                                <h4>Novidades de Death Strange 2</h4>
+                                <h4>Gta 6 - Visão Geral</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    GTA 6 chega com a promessa de elevar o patamar da narrativa, jogabilidade e realismo no universo dos jogos de mundo aberto, representando um marco para a Rockstar Games e para toda a indústria..
                                 </p>
                             </div>
                         </article>
                     </a>
                 </article>
                 
+                <!--Death Stranding 2-->
                 <article>
                     <a class="link-articles" href="/posts/jogos/death-stranding2.php" target="_self"> 
                         <article class="post-article-ultimas">     
-                            <img src="/config/imagens/fotos-games/banner-deathstranding-1x1-pequeno.jpg" alt="Poster gta 6">
+                            <img src="/config/imagens/fotos-games/banner-deathstranding-1x1-pequeno.jpg" alt="Poster de Death Stranding 2">
 
                             <div class="article-texto">
                                 <h4>Novidades de Death Strange 2</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    Com visuais impressionantes, novos mistérios e um retorno à simbologia de conexões humanas, o jogo pretende surpreender novamente.
                                 </p>
                             </div>
                         </article>
                     </a>
                 </article>
+
+                <!--Mafia: the old Country-->
+                <article>
+                    <a class="link-articles" href="/posts/jogos/mafia-the-old-country.php" target="_self"> 
+                        <article class="post-article-ultimas">     
+                            <img src="/config/imagens/fotos-games/banner-mafia-the-old-country-1x1.jpg" alt="Poster de Mafia the old Country">
+
+                            <div class="article-texto">
+                                <h4>Sobre o novo Mafia: The Old Country</h4>
+                                <p>
+                                    Com ambientação na Sicília do início do século 20, o jogo retorna à essência da máfia, explorando honra, vingança, tradição e laços de sangue.
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+                </article>
+
             </aside>
         </main>
 
