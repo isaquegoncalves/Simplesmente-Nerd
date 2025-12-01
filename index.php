@@ -22,7 +22,7 @@
         <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/header.php"; ?>
 
         <main>
-            <div class="conteudo-principal">
+            <div style="max-width: 1200px;" class="conteudo-principal">
                 <h2>Acompanhe o filme do ano!!</h2>
 
                 <!-----BOX DESTAQUE---->
@@ -139,7 +139,7 @@
                         </article>
                     </a>
                 </article>
-                
+
             </aside>
         </main>
 

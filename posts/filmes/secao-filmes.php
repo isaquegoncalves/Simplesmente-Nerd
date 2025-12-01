@@ -186,6 +186,20 @@
                             </div>
                         </article>
                     </a>
+
+                    <!--Zootopia 2 é a maior animação da história? os números surprenderam analistas-->
+                    <a class="link-articles" href="/posts/filmes/zootopia-2.php" target="_self"> 
+                        <article class="post-article">
+                            <img src="/config/imagens/fotos-filmes/banner-zootopia2-16x9.jpg" alt="Poster Zootopia 2">
+                            
+                            <div class="article-texto">
+                                <h4>Zootopia 2 é a maior animação da história? os números surprenderam analistas</h4>
+                                <p>
+                                    O aguardado retorno da animação da Walt Disney Animation Studios, Zootopia 2, não decepcionou — ao contrário: o filme quebrou recordes logo na estreia e já entra para os livros de bilheteria.
+                                </p>
+                            </div>
+                        </article>
+                    </a>
                     
                 </section>
             </div>

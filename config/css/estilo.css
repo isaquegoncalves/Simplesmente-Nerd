@@ -189,6 +189,8 @@ aside.lateral {
     background-color: #f2f2f2;
     padding: 20px;
     border-left: 2px solid #ccc;
+    margin-left: 300px;
+    
 }
 
 aside.lateral h3 {
@@ -772,6 +774,7 @@ h3 {
 
     aside.lateral {
         order: 2;
+        margin-left: 0px;
     }
 
     h2 {
@@ -916,5 +919,6 @@ h3 {
     aside.lateral {
         flex: 1;
         max-width: 300px;
+        min-width: 300px;
     }
 }
