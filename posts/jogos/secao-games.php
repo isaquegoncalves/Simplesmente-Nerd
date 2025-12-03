@@ -24,7 +24,7 @@
         <main>
             <div class="conteudo-principal">
                 <h2 style="text-align: center;">Por dentro dos Games</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat quae reprehenderit omnis pariatur modi et molestias! Qui tenetur a facilis et nihil nobis aliquid dolores, pariatur incidunt quisquam temporibus fugiat!</p>
+                <p>Respire fundo, equipe seu personagem e vem explorar o universo gamer! Aqui você encontra análises, novidades e tudo sobre os títulos que estão movimentando o mundo dos games.</p>
 
                 <!-----BOX DESTAQUE---->
                 <section class="fundo-destaque-filmes-jogos">
@@ -72,7 +72,7 @@
                 <br><br>
 
                 <h3>Games populares</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint magnam assumenda accusamus. Eaque blanditiis, hic amet numquam suscipit, dignissimos voluptate illum omnis incidunt, nobis eveniet corporis beatae magnam ex? Aperiam.</p>
+                <p>Confira os jogos que estão dominando o momento! Os mais jogados, mais falados e que estão conquistando multidões no mundo gamer, tudo reunido em um só lugar.</p>
 
                 <!----ASSUNTOS DO MOMENTO---->
                 <section class="momentos">
@@ -139,7 +139,7 @@
                             <img src="/config/imagens/fotos-games/banner-dying-light-the-beast-16x9.jpg" alt="Poster de The Elder Scrolls 6">
                             
                             <div class="article-texto">
-                                <h4>Dying Light: The Beast</h4>
+                                <h4>Dying Light: The Beast: O JOGO DE ZUMBI MAIS AGUARDADO DO ANO!</h4>
                                 <p>
                                     O tão querido e amado jogo pós-apocaliptico volta com o seu terceiro jogo da franquia. Dying light: the beast não só retorna trazendo uma cara já conhecida pelo seu público, como também um novo mapa, novos gráficos, novas mecânicas e novas formas de dilacerar zumbis.
                                 </p>
@@ -150,38 +150,58 @@
                 </section>
             </div>
 
-            <!--SEÇÃO VEJA MAIS-->
+            <!--SEÇÃO DIRETO DO FORNO-->
             <aside class="lateral">
                 <h3>Direto do forno</h3>
+
+                <!--Superman: Legacy-->
                 <article>
                     <a class="link-articles" href="/posts/filmes/superman-legacy.php" target="_self"> 
                         <article class="post-article-ultimas">     
                             <img src="/config/imagens/fotos-filmes/banner-superman-legacy-1x1.jpg" alt="Poster de superman legacy">
 
                             <div class="article-texto">
-                                <h4>Superman: Legacy</h4>
+                                <h4>Superman: Legacy - Visão geral</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    Com uma abordagem ousada, emocional e atual, o novo filme promete redefinir o herói mais icônico da DC e reacender a esperança do estúdio nas telonas.
                                 </p>
                             </div>
                         </article>
                     </a>
                 </article>
                 
+                <!--Avengers: Doomsday-->
                 <article>
-                    <a class="link-articles" href="/posts/filmes/superman-legacy.php" target="_self"> 
+                    <a class="link-articles" href="/posts/filmes/avengers-doomsday.php" target="_self"> 
                         <article class="post-article-ultimas">     
-                            <img src="/config/imagens/fotos-filmes/banner-superman-legacy-1x1.jpg" alt="Poster de superman legacy">
+                            <img src="/config/imagens/fotos-filmes/banner-avengers-doomsday-1x1.jpg" alt="Poster de avengers Doomsday">
 
                             <div class="article-texto">
-                                <h4>Superman: Legacy</h4>
+                                <h4>Superman: Legacy - Visão geral</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    Avengers Doomsday promete ser mais do que apenas um novo filme, é um marco que pode redefinir todo o Universo Cinematográfico Marvel após os eventos do Multiverso.
                                 </p>
                             </div>
                         </article>
                     </a>
                 </article>
+
+                <!--The Batman 2-->
+                <article>
+                    <a class="link-articles" href="/posts/filmes/the-batman2.php" target="_self"> 
+                        <article class="post-article-ultimas">     
+                            <img src="/config/imagens/fotos-filmes/banner-the-batman2-1x1.jpeg" alt="Poster de avengers Doomsday">
+
+                            <div class="article-texto">
+                                <h4>O que teremos em The Batman 2??</h4>
+                                <p>
+                                    The Batman 2 promete expandir a mitologia do herói com novos vilões, dilemas morais mais profundos e um Gotham ainda mais caótico.
+                                </p>
+                            </div>
+                        </article>
+                    </a>
+                </article>
+
             </aside>
         </main>
 

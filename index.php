@@ -22,7 +22,7 @@
         <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/header.php"; ?>
 
         <main>
-            <div class="conteudo-principal">
+            <div style="max-width: 1200px;" class="conteudo-principal">
                 <h2>Acompanhe o filme do ano!!</h2>
 
                 <!-----BOX DESTAQUE---->
@@ -40,7 +40,7 @@
                 </section>
 
                 <h3>Assuntos do momento</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, hic ipsum fuga, assumenda officiis debitis distinctio itaque, ut necessitatibus esse dolor molestiae qui neque atque aspernatur quo quasi modi ipsa!</p>
+                <p>Fique por dentro do que está pegando fogo no mundo geek! Aqui você encontra os lançamentos mais comentados, trailers que explodiram a internet e tudo o que está dominando a conversa entre fãs de filmes, séries e games.</p>
 
                 <!----ASSUNTOS DO MOMENTO---->
                 <section class="momentos">
@@ -53,7 +53,7 @@
                             <div class="article-texto">
                                 <h4>Lançamento de GTA 6</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    Prepare-se para a revolução no mundo dos games. GTA 6 chega com a promessa de elevar o patamar da narrativa, jogabilidade e realismo no universo dos jogos de mundo aberto, representando um marco para a Rockstar Games e para toda a indústria.
                                 </p>
                             </div>
                         </article>
@@ -67,7 +67,7 @@
                             <div class="article-texto">
                                 <h4>Análise de thunderbolts</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    Quando o governo decide que os heróis tradicionais já não bastam, uma nova força-tarefa é convocada, e ela não é exatamente feita de mocinhos.
                                 </p>
                             </div>
                         </article>
@@ -81,7 +81,7 @@
                             <div class="article-texto">
                                 <h4>Detalhes de novo Mafia</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    Com ambientação na Sicília do início do século 20, o jogo retorna à essência da máfia, explorando honra, vingança, tradição e laços de sangue.
                                 </p>
                             </div>
                         </article>
@@ -95,7 +95,7 @@
                             <div class="article-texto">
                                 <h4>Novidades de Death Strange 2</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    A sequência do enigmático e aclamado jogo de Hideo Kojima está chegando. Death Stranding 2, oficialmente intitulado Death Stranding 2: On the Beach, promete expandir os limites narrativos e visuais do universo pós-apocalíptico criado em 2019.
                                 </p>
                             </div>
                         </article>
@@ -106,36 +106,40 @@
 
             <!--SEÇÃO ULTIMAS NOVIDADES-->
             <aside class="lateral">
-                <h3>Direto do forno</h3>
+                <h3>Mais Recentes</h3>
+
+                <!--Série Coração de Ferro Parece Coração de Pedra! Sujando o Legado de Tony Stark-->
                 <article>
-                    <a class="link-articles" href="/posts/filmes/superman-legacy.php" target="_self"> 
+                    <a class="link-articles" href="/posts/filmes/serie-coracao-de-ferro-parece-coracao-de-pedra-sujando-legado-de-tony-stark.php" target="_self"> 
                         <article class="post-article-ultimas">     
-                            <img src="/config/imagens/fotos-filmes/banner-superman-legacy-1x1.jpg" alt="Poster de superman legacy">
+                            <img src="/config/imagens/fotos-filmes/banner-coracao-de-ferro-1x1.png" alt="Poster de Coração de Ferro">
 
                             <div class="article-texto">
-                                <h4>Superman: Legacy</h4>
+                                <h4>Série Coração de Ferro Parece Coração de Pedra! Sujando o Legado de Tony Stark</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    Prepare o reator arc e segure o capacete, porque precisamos conversar seriamente sobre Coração de Ferro, a série que prometia ser a herdeira espiritual do Homem de Ferro no MCU, e falhou espetacularmente em quase todos os quesitos.
                                 </p>
                             </div>
                         </article>
                     </a>
                 </article>
                 
+                <!--Dying Light: The Beast: O JOGO DE ZUMBI MAIS AGUARDADO DO ANO!-->
                 <article>
-                    <a class="link-articles" href="/posts/jogos/death-stranding2.php" target="_self"> 
+                    <a class="link-articles" href="/posts/jogos/o-jogo-de-zumbi-mais-aguardado-do-ano.php" target="_self"> 
                         <article class="post-article-ultimas">     
-                            <img src="/config/imagens/fotos-games/banner-deathstranding-1x1-pequeno.jpg" alt="Poster gta 6">
+                            <img src="/config/imagens/fotos-games/banner-dying-light-the-beast-1x1.jpg" alt="Poster de Dying Light the beast">
 
                             <div class="article-texto">
-                                <h4>Novidades de Death Strange 2</h4>
+                                <h4>Dying Light: The Beast: O JOGO DE ZUMBI MAIS AGUARDADO DO ANO!</h4>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae explicabo eveniet tempore ipsa modi praesentium minus rem.
+                                    O tão querido e amado jogo pós-apocaliptico volta com o seu terceiro jogo da franquia. Dying light: the beast não só retorna trazendo uma cara já conhecida pelo seu público, como também um novo mapa, novos gráficos, novas mecânicas e novas formas de dilacerar zumbis.
                                 </p>
                             </div>
                         </article>
                     </a>
                 </article>
+
             </aside>
         </main>
 

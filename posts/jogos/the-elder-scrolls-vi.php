@@ -87,38 +87,14 @@
                 <!-- VEJA MAIS -->
                 <h3 style="width: 130px;">Veja mais</h3>
                 <div class="card-container">
-                    <!-- DUNE -->
-                    <a class="link-articles" href="/posts/jogos/dune-awakening.php">
-                        <div class="card">
-                            <img src="/config/imagens/fotos-games/banner-dune-awakening-1x1.jpeg" alt="Dune Awakening" />
-                            <div class="card-text">
-                                <h4>Dune: Awakening</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-                            </div>
-                        </div>
-                    </a>
+                    <!--GTA 6-->
+                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-games/vm-gta6.php"; ?>
 
-                    <!-- MAFIA -->
-                    <a class="link-articles" href="/posts/jogos/mafia-the-old-country.php">
-                        <div class="card">
-                            <img src="/config/imagens/fotos-games/banner-mafia-the-old-country-1x1.jpg" alt="Mafia The Old Country" />
-                            <div class="card-text">
-                                <h4>Mafia: The Old Country</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-                            </div>
-                        </div>
-                    </a>
+                    <!--DEATH STRANDING 2-->
+                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-games/vm-death-stranding2.php"; ?>
 
-                    <!-- AVENGERS -->
-                    <a class="link-articles" href="/posts/filmes/avengers-doomsday.php">
-                        <div class="card">
-                            <img src="/config/imagens/fotos-filmes/banner-avengers-doomsday-1x1.jpg" alt="Avengers Doomsday" />
-                            <div class="card-text">
-                                <h4>Avengers Doomsday</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-                            </div>
-                        </div>
-                    </a>
+                    <!--DUNE: AWAKENING-->
+                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-games/vm-dune-awakening.php"; ?>
                 </div>
             </div>
         </main>

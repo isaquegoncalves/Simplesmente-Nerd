@@ -60,38 +60,15 @@
                 <!-----VEJA MAIS------>
                 <h3 style="width: 130px;">Veja mais</h3>
                 <div class="card-container">
-                    <!--SUPERMAN-->
-                    <a class="link-articles" href="/posts/filmes/superman-legacy.php">
-                        <div class="card">
-                            <img src="/config/imagens/fotos-filmes/banner-superman-legacy-1x1.jpg" alt="Superman Legacy">
-                            <div class="card-text">
-                                <h4>Superman: Legacy</h4>
-                                <p>Um novo recomeço para o Homem de Aço sob direção de James Gunn, marcando o início do novo DCU.</p>
-                            </div>
-                        </div>
-                    </a>
 
-                    <!--DUNE-->
-                    <a class="link-articles" href="/posts/jogos/dune-awakening.php">
-                        <div class="card">
-                            <img src="/config/imagens/fotos-games/banner-dune-awakening-1x1.jpeg" alt="Dune: Awakening">
-                            <div class="card-text">
-                                <h4>Dune: Awakening</h4>
-                                <p>Sobreviva ao deserto de Arrakis em um MMO imersivo e hostil, com ameaças tanto naturais quanto políticas.</p>
-                            </div>
-                        </div>
-                    </a>
+                    <!--Série Coração de Ferro-->
+                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-serie-coracao-de-ferro-parece-coracao-de-pedra-sujando-legado-de-tony-stark.php"; ?>
 
-                    <!--THUNDERBOLTS-->
-                    <a class="link-articles" href="/posts/filmes/thunderbolts.php">
-                        <div class="card">
-                            <img src="/config/imagens/fotos-filmes/thunderbolts-1x1-pequeno.jpeg" alt="Thunderbolts">
-                            <div class="card-text">
-                                <h4>Thunderbolts</h4>
-                                <p>Os anti-heróis da Marvel se reúnem em uma missão brutal e fora dos padrões tradicionais de heroísmo.</p>
-                            </div>
-                        </div>
-                    </a>
+                    <!--Superman e Vingadores tem algo em comum-->
+                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-superman-e-vingadores-ultimato-tem-algo-em-comum.php"; ?>
+
+                    <!--SPIDER-MAN UM NOVO LAR-->
+                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-spider-man-um-novo-lar.php"; ?>
                 </div>
             </div>
         </main>

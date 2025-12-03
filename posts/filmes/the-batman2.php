@@ -13,10 +13,12 @@
         <main>
             <div class="conteudo-principal">
                 <h2>The Batman 2 - Sinopse</h2>
+                <p class="data-autor">Por Saulo Henrique - 26/06/2025</p>
+
                 <p>Após o sucesso de <em>The Batman</em> (2022), Robert Pattinson retorna ao papel de Bruce Wayne em uma nova história sombria e intensa. <em>The Batman 2</em> promete expandir a mitologia do herói com novos vilões, dilemas morais mais profundos e um Gotham ainda mais caótico.</p>
 
                 <div class="poster-conteudo">
-                    <img src="/config/imagens/fotos-filmes/banner-the-batman2-16x9.png" alt="Poster do filme The Batman 2">
+                    <img src="/config/imagens/fotos-filmes/banner-the-batman2-16x9.jpeg" alt="Poster do filme The Batman 2">
                 </div>
 
                 <h3 style="width: 350px;">O que esperar do novo capítulo?</h3>
@@ -39,11 +41,9 @@
                     O diretor Matt Reeves já afirmou que deseja construir uma trilogia sólida e autoral, com um desenvolvimento gradual dos personagens e da corrupção estrutural de Gotham, criando um universo que flerta com o realismo e deixa espaço para futuras ramificações, como a série do Pinguim (Colin Farrell), que também expandirá esse universo.
                 </p>
 
-                </div>
-
                 <br>
 
-                <!-----VOCÊ SABIA----->
+                <!-----VOCÊ SABIA-----> 
                 <section class="voce-sabia">
                     <h3 class="titulo-box">Você sabia?</h3>
                     <div class="curiosidade">
@@ -71,38 +71,14 @@
                 <h3 style="width: 130px;">Veja mais</h3>
                 <div class="card-container">
 
-                    <!--SUPERMAN-->
-                    <a class="link-articles" href="/posts/filmes/superman-legacy.php">
-                        <div class="card">
-                            <img src="/config/imagens/fotos-filmes/banner-superman-legacy-1x1.jpg" alt="">
-                            <div class="card-text">
-                                <h4>Superman: Legacy</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-                            </div>
-                        </div>
-                    </a>
-
-                    <!--THUNDERBOLTS-->
-                    <a class="link-articles" href="/posts/filmes/thunderbolts.php">
-                        <div class="card">
-                            <img src="/config/imagens/fotos-filmes/thunderbolts-1x1-pequeno.jpeg" alt="Thunderbolts">
-                            <div class="card-text">
-                                <h4>Thunderbolts</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-                            </div>
-                        </div>
-                    </a>
-
+                    <!--Superman: Legacy-->
+                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-superman-legacy.php"; ?>
+                    
+                    <!--Avengers Doomsday-->
+                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-avengers-doomsday.php"; ?>
+                    
                     <!--SPIDER-MAN UM NOVO LAR-->
-                    <a class="link-articles" href="/posts/filmes/spider-man-um-novo-lar.php">
-                        <div class="card">
-                            <img src="/config/imagens/fotos-filmes/banner-spider-man-um-novo-lar-1x1.jpeg" alt="capa de homem aranha um novo lar">
-                            <div class="card-text">
-                                <h4>Spider-Man: Um novo lar</h4>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-                            </div>
-                        </div>
-                    </a>
+                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-spider-man-um-novo-lar.php"; ?>
                 </div>
             </div>
 
