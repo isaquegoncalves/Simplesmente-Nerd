@@ -189,6 +189,8 @@ aside.lateral {
     background-color: #f2f2f2;
     padding: 20px;
     border-left: 2px solid #ccc;
+    margin-left: 300px;
+    
 }
 
 aside.lateral h3 {
@@ -495,6 +497,96 @@ h3 {
 
 
 
+/*============================ FORMULÁRIO FORMSPREE ==================================*/
+
+
+        /* Container do formulário */
+        .contact-form {
+            max-width: 480px;
+            margin: 40px auto;
+            padding: 25px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+            font-family: Arial, sans-serif;
+        }
+
+        /* Título */
+        .contact-form h2 {
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Labels */
+        .contact-form label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+
+        /* Inputs */
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #cccccc;
+            border-radius: 8px;
+            font-size: 15px;
+            margin-bottom: 15px;
+            outline: none;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        /* Animação de foco */
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            border-color: #4e72ff;
+            box-shadow: 0 0 6px rgba(78, 114, 255, 0.35);
+        }
+
+        /* Textarea */
+        .contact-form textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        /* Botão */
+        .contact-form button {
+            width: 100%;
+            padding: 12px;
+            background: #4e72ff;
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.25s;
+        }
+
+        .contact-form button:hover {
+            background: #3d5fe0;
+        }
+
+        /* Responsividade */
+        @media (max-width: 500px) {
+            .contact-form {
+                margin: 20px;
+                padding: 20px;
+            }
+        }
+
+
+
+
+/*====================================================================================*/
+
+
+
 /*------------SEÇÃO DE BOXES VEJA MAIS------------*/
     .card-container {
         display: flex;
@@ -629,7 +721,7 @@ h3 {
 
     .footer-section a {
         color: #fff;
-        text-decoration: underline;
+        text-decoration: none;
     }
 
     .footer-section p {
@@ -741,6 +833,7 @@ h3 {
 
     .header-top h1 {
         font-size: 25px;
+        min-width: 160px;
     }
 
     nav {
@@ -772,6 +865,7 @@ h3 {
 
     aside.lateral {
         order: 2;
+        margin-left: 0px;
     }
 
     h2 {
@@ -916,5 +1010,6 @@ h3 {
     aside.lateral {
         flex: 1;
         max-width: 300px;
+        min-width: 300px;
     }
 }

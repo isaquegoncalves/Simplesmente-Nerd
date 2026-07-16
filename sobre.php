@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Simplesmente Nerd</title>
         <link rel="stylesheet" href="/config/css/estilo.css">
+        <link rel="canonical" href="https://simplesmentenerd.com.br/quem-somos.php" />
         <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/head.php"; ?>
         <style>
             @media (min-width: 768px) {
@@ -23,7 +24,7 @@
 
         <main>
             <div class="conteudo-principal">
-                <h2>Quem Somos?</h2>
+                <h2>Sobre Nós</h2>
                 <p>
                     Diretamente da mente de Saulo Henrique, o Simplesmente Nerd nasceu primeiro como um canal no YouTube. Foi então que surgiu a pergunta: por que não ir além? Assim nasceu o site — agora como um grupo de nerds apaixonados!
                 </p>

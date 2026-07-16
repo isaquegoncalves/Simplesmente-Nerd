@@ -78,38 +78,14 @@
         <h3 style="width: 130px;">Veja mais</h3>
         <div class="card-container">
 
-          <!-- DEAD ISLAND 2 -->
-          <a class="link-articles" href="/posts/games/dead-island-2.php">
-            <div class="card">
-              <img src="/config/imagens/fotos-games/banner-deadisland2-1x1.jpg" alt="Dead Island 2" />
-              <div class="card-text">
-                <h4>Dead Island 2</h4>
-                <p>Outro título de zumbi aguardado que aposta em violência extrema e humor ácido.</p>
-              </div>
-            </div>
-          </a>
+          <!--DEATH STRANDING 2-->
+          <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-games/vm-death-stranding2.php"; ?>
 
-          <!-- DYING LIGHT 2 -->
-          <a class="link-articles" href="/posts/games/dying-light-2.php">
-            <div class="card">
-              <img src="/config/imagens/fotos-games/banner-dyinglight2-1x1.jpg" alt="Dying Light 2" />
-              <div class="card-text">
-                <h4>Dying Light 2</h4>
-                <p>O antecessor direto de The Beast, que explorou novas mecânicas de parkour e combate.</p>
-              </div>
-            </div>
-          </a>
+          <!--DUNE: AWAKENING-->
+          <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-games/vm-dune-awakening.php"; ?>
 
-          <!-- RESIDENT EVIL -->
-          <a class="link-articles" href="/posts/games/resident-evil-remake.php">
-            <div class="card">
-              <img src="/config/imagens/fotos-games/banner-residentevil-1x1.jpg" alt="Resident Evil Remake" />
-              <div class="card-text">
-                <h4>Resident Evil Remake</h4>
-                <p>O clássico da Capcom que redefiniu o gênero de terror e zumbis com qualidade cinematográfica.</p>
-              </div>
-            </div>
-          </a>
+          <!--GTA 6-->
+          <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-games/vm-gta6.php"; ?>
 
         </div>
       </div>

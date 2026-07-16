@@ -86,38 +86,14 @@
         <!-----VEJA MAIS----->
         <h3 style="width: 130px">Veja mais</h3>
         <div class="card-container">
-          <!--SUPERMAN-->
-          <a class="link-articles" href="/posts/filmes/superman-legacy.php">
-            <div class="card">
-              <img src="/config/imagens/fotos-filmes/banner-superman-legacy-1x1.jpg" alt="Superman Legacy" />
-              <div class="card-text">
-                <h4>Superman: Legacy</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-              </div>
-            </div>
-          </a>
+          <!--DUNE: AWAKENING-->
+          <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-games/vm-dune-awakening.php"; ?>
 
-          <!--THUNDERBOLTS-->
-          <a class="link-articles" href="/posts/filmes/thunderbolts.php">
-            <div class="card">
-              <img src="/config/imagens/fotos-filmes/thunderbolts-1x1-pequeno.jpeg" alt="Thunderbolts" />
-              <div class="card-text">
-                <h4>Thunderbolts</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-              </div>
-            </div>
-          </a>
+          <!--THE ELDER SCROLLS VI-->
+          <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-games/vm-the-elder-scrolls-vi.php"; ?>
 
-          <!--MAFIA-->
-          <a class="link-articles" href="/posts/jogos/mafia-the-old-country.php">
-            <div class="card">
-              <img src="/config/imagens/fotos-games/banner-mafia-1x1-pequeno.jpg" alt="Capa de Mafia" />
-              <div class="card-text">
-                <h4>Mafia: The Old Country</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-              </div>
-            </div>
-          </a>
+          <!--DYING LIGHT: THE BEAST-->
+          <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-games/vm-dying-light-the-beast.php"; ?>
         </div>
       </div>
     </main>

@@ -49,44 +49,14 @@
         <h3 style="width: 130px;">Veja mais</h3>
         <div class="card-container">
 
-          <!-- CORAÇÃO DE FERRO -->
-          <a class="link-articles" href="/posts/series/coracao-de-ferro.php">
-            <div class="card">
-              <img src="/config/imagens/fotos-series/banner-coracao-ferro-1x1.jpg" alt="Coração de Ferro" />
-              <div class="card-text">
-                <h4>Coração de Ferro</h4>
-                <p>
-                  A série que tentou herdar o legado de Tony Stark, mas entregou pouco e dividiu os fãs.
-                </p>
-              </div>
-            </div>
-          </a>
+          <!--Thunderbolts-->
+          <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-thunderbolts.php"; ?>
 
-          <!-- WANDAVISION -->
-          <a class="link-articles" href="/posts/series/wandavision.php">
-            <div class="card">
-              <img src="/config/imagens/fotos-series/banner-wandavision-1x1.jpg" alt="WandaVision" />
-              <div class="card-text">
-                <h4>WandaVision</h4>
-                <p>
-                  A série que deu origem às maiores teorias sobre Mephisto no universo Marvel.
-                </p>
-              </div>
-            </div>
-          </a>
+          <!--Avengers Doomsday-->
+          <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-avengers-doomsday.php"; ?>
 
-          <!-- LOKI -->
-          <a class="link-articles" href="/posts/series/loki-temporada-2.php">
-            <div class="card">
-              <img src="/config/imagens/fotos-series/banner-loki-1x1.jpg" alt="Loki" />
-              <div class="card-text">
-                <h4>Loki - 2ª Temporada</h4>
-                <p>
-                  As aventuras do Deus da Trapaça que moldam as linhas do tempo do multiverso Marvel.
-                </p>
-              </div>
-            </div>
-          </a>
+          <!--Coração de ferro-->
+          <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-serie-coracao-de-ferro-parece-coracao-de-pedra-sujando-legado-de-tony-stark.php"; ?>
 
         </div>
       </div>

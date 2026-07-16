@@ -79,38 +79,16 @@
         <!-----VEJA MAIS----->
         <h3 style="width: 130px;">Veja mais</h3>
         <div class="card-container">
-          <!--MAFIA-->
-          <a class="link-articles" href="/posts/jogos/mafia-the-old-country.php">
-            <div class="card">
-              <img src="/config/imagens/fotos-games/banner-mafia-1x1-pequeno.jpg" alt="Mafia The Old Country" />
-              <div class="card-text">
-                <h4>Mafia: The Old Country</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-              </div>
-            </div>
-          </a>
 
-          <!--DEATH STRANDING-->
-          <a class="link-articles" href="/posts/jogos/death-stranding2.php">
-            <div class="card">
-              <img src="/config/imagens/fotos-games/banner-deathstranding-1x1-pequeno.jpg" alt="Death Stranding 2" />
-              <div class="card-text">
-                <h4>Death Stranding 2</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-              </div>
-            </div>
-          </a>
+          <!--MAFIA THE OLD COUNTRY-->
+          <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-games/vm-mafia-the-old-country.php"; ?>
 
-          <!--THUNDERBOLTS-->
-          <a class="link-articles" href="/posts/filmes/thunderbolts.php">
-            <div class="card">
-              <img src="/config/imagens/fotos-filmes/thunderbolts-1x1-pequeno.jpeg" alt="Thunderbolts" />
-              <div class="card-text">
-                <h4>Thunderbolts</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat ad nulla autem recusandae commodi id veniam veritatis corporis.</p>
-              </div>
-            </div>
-          </a>
+          <!--DEATH STRANDING 2-->
+          <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-games/vm-death-stranding2.php"; ?>
+
+          <!--DYING LIGHT: THE BEAST-->
+          <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-games/vm-dying-light-the-beast.php"; ?>
+
         </div>
       </div>
     </main>

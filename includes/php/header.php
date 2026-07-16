@@ -1,4 +1,4 @@
-<?php 
+<?php
 echo'
     <header>
         <!--Menu Desktop-->
@@ -6,6 +6,7 @@ echo'
             <div class="titulo-e-logo">
                 <img id="logo-sn" src="/config/imagens/logo-sn.png" alt="">
                 <h1>Simplesmente Nerd</h1>
+                <p style="color: gray; font-family: bebas neue">Beta</p>
             </div>
             
             <div class="menu-icon" onclick="toggleMenu()">☰</div>
@@ -13,9 +14,10 @@ echo'
                 <a href="/index.php">Home</a>
                 <a href="/posts/filmes/secao-filmes.php" style="color: #14c9ff;">Filmes</a>
                 <a href="/posts/jogos/secao-games.php" style="color: #14c9ff;">Games</a>
-                <a href="#">Contato</a>
-                <a href="/quem-somos.php">Quem Somos</a>
-                <a href="/politicas.php">Políticas</a>
+                <a href="/contato.php">Contato</a>
+                <a href="/sobre.php">Sobre</a>
+                <a href="/politica-de-privacidade.php">Política de Privacidade</a>
+                <a href="/termos-de-uso.php">Termos de Uso</a>
             </nav>
         </div>
 
@@ -25,9 +27,10 @@ echo'
             <a href="/index.php">Home</a>
             <a href="/posts/filmes/secao-filmes.php" style="font-size: 40px; color: #14c9ff;">Filmes</a>
             <a href="/posts/jogos/secao-games.php" style="font-size: 40px; color: #14c9ff;">Games</a>
-            <a href="#">Contato</a>
-            <a href="/quem-somos.php">Quem Somos</a>
-            <a href="/politicas.php">Políticas</a>
+            <a href="/contato.php">Contato</a>
+            <a href="/sobre.php">Sobre</a>
+            <a href="/politica-de-privacidade.php">Política de Privacidade</a>
+            <a href="/termos-de-uso.php">Termos de Uso</a>
         </div>
     </header>
     ';

@@ -97,11 +97,11 @@
                 <h3 style="width: 130px;">Veja mais</h3>
                 <div class="card-container">
 
-                    <!--Superman: Legacy-->
-                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-avengers-doomsday.php"; ?>
+                    <!--Superman e Vingadores tem algo em comum-->
+                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-superman-e-vingadores-ultimato-tem-algo-em-comum.php"; ?>
                     
-                    <!--Thunderbolts-->
-                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-thunderbolts.php"; ?>
+                    <!--The Batman 2-->
+                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-the-batman2.php"; ?>
                     
                     <!--SPIDER-MAN UM NOVO LAR-->
                     <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-spider-man-um-novo-lar.php"; ?>

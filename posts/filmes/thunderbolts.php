@@ -88,14 +88,14 @@
                 <h3 style="width: 130px;">Veja mais</h3>
                 <div class="card-container">
 
-                    <!--Superman: Legacy-->
-                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-superman-legacy.php"; ?>
+                    <!--Mefisto apareceu-->
+                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-mefisto-finalmente-apareceu-mas-nao-como-o-publico-esperava.php"; ?>
                     
                     <!--Série Coração de Ferro-->
                     <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-serie-coracao-de-ferro-parece-coracao-de-pedra-sujando-legado-de-tony-stark.php"; ?>
                     
-                    <!--SPIDER-MAN UM NOVO LAR-->
-                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-spider-man-um-novo-lar.php"; ?>
+                    <!--Avengers Doomsday-->
+                    <?php require_once $_SERVER['DOCUMENT_ROOT'] . "/includes/php/veja-mais/vm-avengers-doomsday.php"; ?>
                 </div>
             </div>
 
